@@ -1,0 +1,50 @@
+# Build output: track only the report PDF (linked from README.md).
+# build_report.sh --keep-html writes an HTML intermediate next to it.
+dist/*
+!dist/*.pdf
+
+# Assessment prompt: employer material, not published with the deliverables.
+Cloud CI Engineer Assessment - 2026.docx.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration. The probes send only a fixed invalid token,
+# so no credential file is needed; these patterns guard against adding one.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# OS metadata
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Office lock files, backups, merge leftovers
+~$*
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Do not ignore *.log, *.body, *.headers, *.meta, or *.txt: evidence/probes/
+# and evidence/manual/ store primary captures in those formats.

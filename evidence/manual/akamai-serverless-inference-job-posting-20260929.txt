@@ -1,0 +1,141 @@
+url: https://jobs.akamai.com/en/sites/CX_1/job/2688
+captured_utc: 2026-09-29T03:46Z
+normalization: typographic characters rewritten to ASCII, symbols and format characters removed
+method: page text (document.body.innerText) read from Google Chrome 154.0.8037.58 , interactive user session, via AppleScript
+---
+Skip to main content.
+COOKIE PREFERENCE
+I'M AN EMPLOYEE
+MANAGE / VIEW PROFILE
+View More Jobs
+Senior Site Reliability Engineer
+Poland (Remote)
+JOB DESCRIPTION
+
+Do you enjoy solving complex reliability challenges for cutting-edge technology?
+
+Do you have a passion for automation and building systems that scale?
+
+Join the Akamai Inference Cloud Team
+
+The Akamai Inference Cloud team is part of Akamai's Cloud Technology Group. We design, implement, deploy and operate AI platforms that enable customers to run inference models and developers to create AI applications with unmatched performance, compliance, and economics.
+
+Partner with the best
+
+As a Senior SRE, responsibilities include owning reliability workstreams for Akamai's serverless inference platform, building automation and tooling, and contributing to architecture and operational decisions. Opportunities exist to take ownership of critical reliability problems end-to-end, partner with product engineering teams, and develop expertise in GPU infrastructure, Kubernetes at scale, and AI inference workloads.
+
+As a Site Reliability Engineer, you will be responsible for:
+
+Building and maintaining observability for AI workloads, including telemetry, dashboards, alerts, SLO/SLI tracking, and driving improvements when targets are missed
+Writing automation and tooling to reduce operational toil, improve deployment safety, and accelerate incident response
+Integrating AI workloads into Akamai's existing incident management processes, building runbooks, participating in on-call rotations, and conducting blameless post-mortems
+Building and maintaining CI/CD integrations, deployment safety checks, and rollback automation
+Collaborating with product engineering teams to improve reliability, contribute to architecture decisions, and ensure operational readiness for product releases
+Contributing to capacity planning, autoscaling configuration, and workload scheduling for AI compute infrastructure
+
+Do what you love
+
+To be successful in this role you will:
+
+Demonstrate expertise in SRE, infrastructure, or platform engineering, managing large-scale distributed systems with extensive operational experience.
+Demonstrate expertise in Kubernetes and large-scale containerization systems.
+Define SLOs and work with observability tools like Prometheus, Grafana, and distributed tracing to enhance system monitoring.
+Demonstrate proficiency in Python or Go for automation, CI/CD pipelines, deployment safety, and infrastructure-as-code like Terraform.
+Interest in or experience with AI/ML infrastructure, model serving, or GPU workloads
+Resolve issues independently while maintaining accountability throughout the process.
+Demonstrate accountability for reliability, develop automation and monitoring, and collaborate effectively with an engineering team unfamiliar with SRE practices.
+
+Work in a way that works for you
+
+FlexBase, Akamai's Global Flexible Working Program, is based on the principles that are helping us create the best workplace in the world. When our colleagues said that flexible working was important to them, we listened. We also know flexible working is important to many of the incredible people considering joining Akamai. FlexBase, gives 95% of employees the choice to work from their home, their office, or both (in the country advertised). This permanent workplace flexibility program is consistent and fair globally, to help us find incredible talent, virtually anywhere. We are happy to discuss working options for this role and encourage you to speak with your recruiter in more detail when you apply.
+
+Learn what makes Akamai a great place to work
+
+Connect with us on social and see what life at Akamai is like!	     
+
+We power and protect life online, by solving the toughest challenges, together.
+
+At Akamai, we're curious, innovative, collaborative and tenacious. We celebrate diversity of thought and we hold an unwavering belief that we can make a meaningful difference. Our teams use their global perspectives to put customers at the forefront of everything they do, so if you are people-centric, you'll thrive here.
+
+Working for you
+
+At Akamai, we will provide you with opportunities to grow, flourish, and achieve great things. Our benefit options are designed to meet your individual needs for today and in the future. We provide benefits surrounding all aspects of your life:
+
+Your health
+Your finances
+Your family
+Your time at work
+Your time pursuing other endeavors
+
+Our benefit plan options are designed to meet your individual needs and budget, both today and in the future.
+
+About us
+
+Akamai powers and protects life online. Leading companies worldwide choose Akamai to build, deliver, and secure their digital experiences helping billions of people live, work, and play every day. With the world's most distributed compute platform from cloud to edge we make it easy for customers to develop and run applications, while we keep experiences closer to users and threats farther away.
+
+Join us
+
+Are you seeking an opportunity to make a real difference in a company with a global reach and exciting services and clients? Come join us and grow with a team of people who will energize and inspire you!
+
+#LI-Remote
+
+APPLY NOW
+JOB INFO
+Job Identification
+2688
+Posting Date
+04/02/2026, 01:39 AM
+Locations
+ Centrum Biurowe Vinci, Krakow, Malopolskie, 31-323, PL
+(Remote)
+
+Similar Jobs
+
+Senior Site Reliability Engineer
+Poland (Remote)  Posted on 09/15/2026
+
+The Senior Engineer creates solutions to improve automation and efficiency for systems and teams. Responsibilities include optimizing workflows, infrastructure, and applications. Expertise in Linux administration, configuration management, and performance tuning is essential. Collaborate on deployment, monitoring, and resolving incidents. Focus on reliability, scalability, and efficiency through automation and resource optimization. Promote continuous improvement and operational excellence across all systems.
+
+Senior Site Reliability Engineer
+Poland (Remote)  Posted on 07/07/2026
+
+This position involves ensuring reliability and operational readiness for advanced hardware and software systems across regional data centers. Collaborate with product teams during development to optimize scalability, performance, and system reliability. Define and monitor key performance indicators while addressing breaches. Analytical abilities, coding expertise, urgent issue resolution, and dedication to maintaining service availability are essential for success in this role.
+
+Senior Site Reliability Engineer - Remote
+Poland (Remote)  Posted on 07/31/2026
+
+As a Senior Site Reliability Engineer, you will perform system analysis and troubleshooting, assess performance and capacity of our platform, and make improvement recommendations. Having identified improvements, you'll work with engineering and the SRE teams to implement new features and products.
+
+Principal Site Reliability Engineer
+Poland (Remote)  Posted on 09/22/2026
+
+As a Principal Site Reliability Engineer, you will be at the forefront of Akamai Cloud hypervisor host technologies. SEQ works to enable new hardware via our provisioning service, provides seamless firmware upgrade models, and works with other HIVE teams. Together, we are providing cohesive and performant solutions to our internal infrastructure customers and operators. We ensure reliable server behavior cross all our datacenters.
+
+SEE MORE JOBS
+COMPANY
+About us
+Leadership
+History
+CAREERS
+Careers
+Working at Akamai
+Workplace Diversity
+NEWSROOM
+Newsroom
+Press Releases
+Culture Blog
+In the News
+LEGAL & COMPLIANCE
+Legal
+Privacy Trust Center
+Information Security Compliance
+Privacy Statement
+© 2024 Akamai Technologies | All right reserved.
+
+Your Cookie Choices. We use cookies to ensure the fast, reliable and secure operation of this website, to improve your website experience and to manage your cookie choices. Some cookies process personal data. By agreeing to the placement of the cookies you also agree to the related personal data processing activities, where applicable. Click "Manage Preferences" to make individual choices and get details on the cookies in use, click "Accept" to agree to the storing of all cookies and the data processing activities or click "Decline" to reject all cookies except for strictly necessary cookies. You can withdraw your consent at any time by clicking on Cookie Preferences that appears in the website header. For additional information relating to your privacy take a look at our Privacy Statement that appears in the website footer.
+
+ACCEPT
+DECLINE
+Manage Preferences
+
+Page Senior Site Reliability Engineer - Akamai Career Site Careers loaded

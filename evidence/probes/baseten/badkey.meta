@@ -1,0 +1,9 @@
+provider: baseten
+probe: badkey
+method: POST
+url: https://inference.baseten.co/v1/chat/completions
+http_code: 403
+captured_utc: 2026-09-29T18:21:43Z
+body_bytes: 50
+body_sha256: 9cff802ee28ff381fb9e28e7c9cd905ae68555b5cad87a91152246c5b2e958b6
+body_encoding: json, non-ASCII escaped as \uXXXX

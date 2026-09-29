@@ -1,0 +1,11 @@
+HTTP/2 204 
+date: Tue, 29 Sep 2026 18:22:33 GMT
+access-control-allow-origin: *
+vary: Origin
+access-control-allow-credentials: true
+access-control-allow-headers: Authorization, Content-Type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+x-request-id: c7b5921071a8c47bba45f844d59c76a5
+strict-transport-security: max-age=31536000; includeSubDomains
+

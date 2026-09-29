@@ -1,0 +1,42 @@
+== api.linode.com ==
+api.linode.com.		20818	IN	CNAME	loadbal-api.rin1.linode.com.
+loadbal-api.rin1.linode.com. 119 IN	CNAME	api.linode.com.edgekey.net.
+api.linode.com.edgekey.net. 18657 IN	CNAME	e26254.dsca.akamaiedge.net.
+e26254.dsca.akamaiedge.net. 20	IN	A	23.211.124.208
+e26254.dsca.akamaiedge.net. 20	IN	A	23.211.124.199
+api.linode.com.		21299	IN	CNAME	loadbal-api.rin1.linode.com.
+loadbal-api.rin1.linode.com. 118 IN	CNAME	api.linode.com.edgekey.net.
+api.linode.com.edgekey.net. 20213 IN	CNAME	e26254.dsca.akamaiedge.net.
+e26254.dsca.akamaiedge.net. 20	IN	AAAA	2600:1405:401:6::17d8:669
+e26254.dsca.akamaiedge.net. 20	IN	AAAA	2600:1405:401:6::17d8:670
+api.linode.com.		10054	IN	CNAME	loadbal-api.rin1.linode.com.
+
+== techdocs.akamai.com ==
+techdocs.akamai.com.	300	IN	CNAME	techdocs.akamai.com.edgekey.net.
+techdocs.akamai.com.edgekey.net. 300 IN	CNAME	e185847.dscx.akamaiedge.net.
+e185847.dscx.akamaiedge.net. 20	IN	A	23.45.123.41
+e185847.dscx.akamaiedge.net. 20	IN	A	23.45.123.42
+techdocs.akamai.com.	151	IN	CNAME	techdocs.akamai.com.edgekey.net.
+techdocs.akamai.com.edgekey.net. 1 IN	CNAME	e185847.dscx.akamaiedge.net.
+e185847.dscx.akamaiedge.net. 20	IN	AAAA	2600:1405:401:6::17d8:666
+e185847.dscx.akamaiedge.net. 20	IN	AAAA	2600:1405:401:6::17d8:671
+techdocs.akamai.com.	1	IN	CNAME	techdocs.akamai.com.edgekey.net.
+
+== www.akamai.com ==
+www.akamai.com.		2534	IN	CNAME	www.akamai.com.edgekey.net.
+www.akamai.com.edgekey.net. 20	IN	A	23.45.123.5
+www.akamai.com.edgekey.net. 20	IN	A	23.45.123.37
+www.akamai.com.		2503	IN	CNAME	www.akamai.com.edgekey.net.
+www.akamai.com.edgekey.net. 20	IN	AAAA	2600:1405:401:6::17d8:665
+www.akamai.com.edgekey.net. 20	IN	AAAA	2600:1405:401:6::17d8:66c
+www.akamai.com.		2533	IN	CNAME	www.akamai.com.edgekey.net.
+
+== status.linode.com ==
+status.linode.com.	18135	IN	CNAME	8dn0wstr1chc.stspg-customer.com.
+8dn0wstr1chc.stspg-customer.com. 60 IN	A	108.138.94.107
+8dn0wstr1chc.stspg-customer.com. 60 IN	A	108.138.94.32
+8dn0wstr1chc.stspg-customer.com. 60 IN	A	108.138.94.76
+8dn0wstr1chc.stspg-customer.com. 60 IN	A	108.138.94.17
+status.linode.com.	19976	IN	CNAME	8dn0wstr1chc.stspg-customer.com.
+status.linode.com.	18011	IN	CNAME	8dn0wstr1chc.stspg-customer.com.
+

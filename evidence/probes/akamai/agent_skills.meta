@@ -1,0 +1,9 @@
+provider: akamai
+probe: agent_skills
+method: GET
+url: https://techdocs.akamai.com/cloud-computing/.well-known/agent-skills/index.json
+http_code: 200
+captured_utc: 2026-09-29T18:22:59Z
+body_bytes: 504
+body_sha256: 37e7044f16965676e25ee7792779e1a2be183d7b85d8adcb645bc0a06fc9608a
+body_encoding: json, non-ASCII escaped as \uXXXX

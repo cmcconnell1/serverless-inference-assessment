@@ -1,0 +1,9 @@
+provider: akamai
+probe: options
+method: OPTIONS
+url: https://api.linode.com/v4/profile
+http_code: 200
+captured_utc: 2026-09-29T18:22:57Z
+body_bytes: 0
+body_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+body_encoding: raw

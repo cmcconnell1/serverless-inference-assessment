@@ -1,0 +1,9 @@
+provider: nebius
+probe: www_head
+method: HEAD
+url: https://nebius.com/token-factory
+http_code: 301
+captured_utc: 2026-09-29T18:22:45Z
+body_bytes: 7490
+body_sha256: 6871b7300bb30eeb229ea182cc3f403cae5417843f3786231d97a04b9c2dcb0e
+body_encoding: raw

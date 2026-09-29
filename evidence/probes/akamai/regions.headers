@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-OAuth-Scopes: unknown
+X-Accepted-OAuth-Scopes: *
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: HEAD, GET, OPTIONS, POST, PUT, DELETE
+Access-Control-Allow-Headers: Authorization, Origin, X-Requested-With, Content-Type, Accept, X-Filter
+X-Spec-Version: 4.236.0
+X-RateLimit-Limit: 1840
+X-RateLimit-Remaining: 1839
+X-RateLimit-Reset: 1790706237
+Retry-After: 60
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Status
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Vary: authorization
+Vary: x-filter
+Vary: authorization
+Vary: x-filter
+Expires: Tue, 29 Sep 2026 18:22:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 29 Sep 2026 18:22:56 GMT
+Content-Length: 35273
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000
+

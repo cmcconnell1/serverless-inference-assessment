@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: live_metrics
+method: GET
+url: https://api.deepinfra.com/v1/metrics/live
+http_code: 200
+captured_utc: 2026-09-29T18:21:52Z
+body_bytes: 147
+body_sha256: 32ece0541a7fa513cf1256b402330b5857d25dc9fac9d263957fa585105e68a8
+body_encoding: json, non-ASCII escaped as \uXXXX

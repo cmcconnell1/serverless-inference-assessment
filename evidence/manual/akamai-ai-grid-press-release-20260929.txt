@@ -1,0 +1,157 @@
+url: https://www.akamai.com/newsroom/press-release/akamai-launches-ai-grid-intelligent-orchestration-for-distributed-inference-across-4400-edge-locations
+captured_utc: 2026-09-29T03:46Z
+normalization: typographic characters rewritten to ASCII, symbols and format characters removed
+method: page text (document.body.innerText) read from Google Chrome 154.0.8037.58 , interactive user session, via AppleScript
+---
+Akamai Launches AI Grid Intelligent Orchestration for Distributed Inference Across 4,400 Edge Locations | Akamai
+https://www.akamai.com/newsroom/press-release/akamai-launches-ai-grid-intelligent-orchestration-for-distributed-inference-across-4400-edge-locations
+
+English
+Docs
+Partners
+Sales
+Support
+Under Attack ?
+Log in
+Cloud Manager
+Manage your cloud computing services
+Control Center
+Manage your security and delivery services
+Products
+Solutions
+Pricing
+Developers
+Resources
+Create account
+Press Releases
+/
+Akamai Launches AI Grid Intelligent Orchestration for Distributed Inference Across 4,400 Edge Locations
+Akamai Launches AI Grid Intelligent Orchestration for Distributed Inference Across 4,400 Edge Locations
+
+Akamai Inference Cloud is the industry's first global-scale implementation of NVIDIA AI Grid, intelligently routing AI workloads across its edge, regional, and core footprint to balance latency, cost, and performance
+
+March 16, 2026
+San Jose, CA USA
+
+Akamai Technologies (NASDAQ: AKAM) today reached a major milestone in the evolution of artificial intelligence, unveiling the first global-scale implementation of NVIDIA® AI Grid reference design. By integrating NVIDIA AI infrastructure into Akamai's infrastructure, and leveraging intelligent workload orchestration across its network, Akamai intends to move the industry beyond isolated AI factories toward a unified, distributed grid for AI inference.
+
+The move marks a significant step in the evolution of Akamai's Inference Cloud, introduced late last year. As the first to operationalize the AI Grid, Akamai is rolling out thousands of NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, providing a platform to enable enterprises to run agentic and physical AI with the responsiveness of local compute and the scale of the global web.
+
+"AI factories have been purpose-built for training and frontier model workloads - and centralized infrastructure will continue to deliver the best tokenomics for those use cases," said Adam Karon, Chief Operating Officer and General Manager, Cloud Technology Group, Akamai. "But real-time video, physical AI, and highly concurrent personalized experiences demand inference at the point of contact, not a round trip to a centralized cluster. Our AI Grid intelligent orchestration gives AI factories a way to scale inference outward - leveraging the same distributed architecture that revolutionized content delivery to route AI workloads across 4,400 locations, at the right cost, at the right time."
+
+The Architecture of 'Tokenomics'
+
+At the heart of the AI Grid is an intelligent orchestrator that acts as a real-time broker for AI requests. Applying Akamai's expertise in application performance optimization to AI, this workload-aware control plane optimizes "tokenomics" by radically improving cost per token, time-to-first-token, and throughput.
+
+A major differentiator for Akamai is the ability for customers to access fine-tuned or sparsified models through its enormous global edge footprint, which offers a massive cost and performance advantage for the long tail of AI workloads. For example:
+
+Cost Efficiency at Scale: Enterprises can dramatically reduce inference costs by matching workloads to the right compute tier automatically. The orchestrator applies techniques like semantic caching and intelligent routing to direct requests to right-sized resources, reserving premium GPU cycles for the workloads that demand them. Underpinning this is Akamai Cloud, built on open-source infrastructure with generous egress allowances to support data-intensive AI operations at scale.
+Real-Time Responsiveness: Gaming studios can deliver AI-driven NPC interactions that maintain player immersion in milliseconds. Financial institutions can execute personalized fraud detection and marketing recommendations in the moment between login and first screen. Broadcasters can transcode and dub content in real time for global audiences. These outcomes are powered by Akamai's globally distributed edge network with over 4,400 locations with integrated caching, serverless edge compute, and high-performance connectivity that processes requests at the point of user contact, bypassing the round-trip lag of origin dependent clouds.
+Production-Grade AI at the Core: Large language models, continuous post-training, and multi-modal inference workloads require sustained, high-density compute that only dedicated infrastructure can deliver. Akamai's multi-thousand GPU clusters, powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, provide the concentrated horsepower for the heaviest AI workloads, complementing the distributed edge with centralized scale.
+The Continuum of Compute: From Core to Far-Edge
+
+Built on NVIDIA AI Enterprise and leveraging NVIDIA Blackwell architecture and NVIDIA BlueField DPUs for hardware-accelerated networking and security, Akamai is able to manage complex SLAs across edge and core locations:
+
+The Edge (4,400+ locations): Delivers rapid response times for physical AI and autonomous agents. It will leverage semantic caching and serverless capabilities like Akamai Functions (WebAssembly-based compute) and EdgeWorkers to deliver model affinity and stable performance at the point of user contact.
+Akamai Cloud IaaS and Dedicated GPU Clusters: Core public cloud infrastructure enables portability and cost savings for massive-scale workloads, while pods powered by NVIDIA  RTX PRO 6000 Blackwell GPUs enable heavy-duty post-training and multi-modal inference.
+
+"New AI-native applications demand predictable latency and better cost efficiency at planetary scale," said Chris Penrose, Global VP - Business Development - Telco at NVIDIA. "By operationalizing the NVIDIA AI Grid, Akamai is building the connective tissue for generative, agentic, and physical AI, moving intelligence directly to the data to unlock the next wave of real-time applications."
+
+Powering the Next Wave of Real-Time AI
+
+Akamai is already seeing strong, early adoption for Akamai Inference Cloud across compute-intensive, latency-sensitive industries:
+
+Gaming: Studios are deploying sub-50-millisecond inference for AI-driven NPCs and real-time player interactions.
+Financial Services: Banks rely on the grid for hyper-personalized marketing and rapid recommendations in the critical moments when customers log in.
+Media and Video: Broadcasters use the distributed network for AI-powered transcoding and real-time dubbing.
+Retail and Commerce: Retailers are adopting the network for in-store AI applications and associate productivity tools at the point of sale.
+
+Driven by enterprise demand, the platform has also been validated by major technology providers, including a $200 million, four-year service agreement for a multi-thousand GPU cluster in a data center purpose-built for enterprise AI infrastructure at the metro edge.
+
+Scaling AI Factories from Centralized to Distributed
+
+The first wave of AI infrastructure was defined by massive GPU clusters in a handful of centralized locations, optimized for training. But as inference becomes the dominant workload and businesses across every industry focus on building AI agents, that centralized model faces the same scaling constraints that earlier generations of internet infrastructure encountered with media delivery, online gaming, financial transactions, and complex microservices applications.
+
+Akamai is solving each of those challenges through the same fundamental approach: distributed networking, intelligent orchestration, and purpose-built systems that bring content and context together as close as possible to the digital touchpoint. The result has been improved user experiences and stronger ROI for the enterprises that adopted the model. Akamai Inference Cloud applies that same proven architecture to AI factories, enabling the next wave of scaling and growth by distributing dense compute from core to edge.
+
+For enterprises, this means the ability to deploy AI agents that are context-aware and adaptive in their responsiveness. For the industry, it represents a blueprint for how AI factories evolve from isolated installations into a globally distributed utility.
+
+Availability
+
+Akamai Inference Cloud is available today for qualified enterprise customers. Organizations can learn more and request access at https://www.akamai.com/products/akamai-inference-cloud-platform. Akamai representatives will be available for demonstrations and meetings throughout NVIDIA GTC 2026 at the San Jose Convention Center, Booth 621 March 16-19, 2026.
+
+About Akamai
+
+Akamai is the cloud company that powers and protects an AI-driven world. Our cloud platform extends high-performance cloud computing from the core to the edge, enabling organizations to build and scale next-generation AI applications while delivering comprehensive, multilayered security to safeguard enterprises against evolving cyberthreats. Learn more at akamai.com and akamai.com/blog, or follow Akamai Technologies on X and LinkedIn.
+
+Share
+
+Contact the Akamai PR Team
+View Press Contacts
+PRODUCTS
+Cloud Computing
+Security
+Content Delivery
+All Products and Trials
+Global Services
+COMPANY
+About Us
+History
+Leadership
+Awards
+Board of Directors
+Infrastructure for Innovation
+Investor Relations
+Corporate Responsibility
+Ethics
+Locations
+Vulnerability Reporting
+Accessibility Statement
+CAREERS
+Careers
+Working at Akamai
+Students and Recent Grads
+Inclusive Workplace
+Search Jobs
+Culture Blog
+NEWSROOM
+Newsroom
+Press Releases
+In the News
+Media Resources
+LEGAL & COMPLIANCE
+Legal
+Information Security Compliance
+Privacy Trust Center
+Privacy Statement
+Cookie Settings
+EU Digital Services Act (DSA)
+GLOSSARY
+What Is API Security?
+What Is a CDN?
+What Is Cloud Computing?
+What Is Cybersecurity?
+What Is a DDoS attack?
+What Is Microsegmentation?
+What Is WAAP?
+What Is Zero Trust?
+See all
+EMEA Legal Notice
+Service Status
+Contact Us
+English
+English
+Deutsch
+Español
+Français
+Italiano
+Português
+中文
+日本語
+한국어
+
+© 2026 Akamai Technologies
+
+Your cookie choices and AI settings for this website
+We use cookies to ensure the fast reliable and secure operation of this website, to improve your website experience, to enable certain social media interactions, to enable our AI sales representative chatbot (KAI) and to manage your cookie choices. Some cookies process personal data or personal information, where applicable. Click "Manage Preferences" to make individual choices and get details on the cookies in use and the associated processing activities in the Cookie Details section. You can access the Cookie Management Page and withdraw the consent at any time via the Cookie Settings link in the footer. By closing this cookie banner without managing your own preferences and continuing to visit our websites, you are agreeing to our use of cookies. For additional information relating to your privacy take a look at our Privacy Statement
+Manage Preferences

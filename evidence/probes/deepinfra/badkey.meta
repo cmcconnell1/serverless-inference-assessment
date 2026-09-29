@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: badkey
+method: POST
+url: https://api.deepinfra.com/v1/openai/chat/completions
+http_code: 401
+captured_utc: 2026-09-29T18:21:51Z
+body_bytes: 139
+body_sha256: 86e20ed66809663bc748f6535ec91876131e738ad501f28d7fc7c6628a4050a8
+body_encoding: json, non-ASCII escaped as \uXXXX

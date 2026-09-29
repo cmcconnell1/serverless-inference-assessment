@@ -1,0 +1,9 @@
+HTTP/1.1 401 Unauthorized
+Date: Tue, 29 Sep 2026 18:21:51 GMT
+Content-Type: application/json
+Content-Length: 139
+Connection: keep-alive
+server: uvicorn
+www-authenticate: Bearer
+x-robots-tag: noindex
+

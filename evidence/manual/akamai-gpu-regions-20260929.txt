@@ -1,0 +1,641 @@
+url: https://techdocs.akamai.com/cloud-computing/docs/gpu-compute-instances
+captured_utc: 2026-09-29T03:46Z
+normalization: typographic characters rewritten to ASCII, symbols and format characters removed
+method: page text (document.body.innerText) read from Google Chrome 154.0.8037.58 , interactive user session, via AppleScript
+---
+GPU Linodes
+https://techdocs.akamai.com/cloud-computing/docs/gpu-compute-instances
+
+Guide
+Release notes
+API
+CLI
+Cloud Manager
+Tutorials
+Support
+Community
+Search this doc set
+K
+Platform
+Welcome to Akamai Cloud
+Get started
+Choose a data center
+Network transfer usage and costs
+Help & support
+Send email on Akamai Cloud
+Subscribe to status updates
+Grant a developer access to your services
+Automate cloud resource deployment
+Resell services
+Partner Referrals (Beta)
+Distributed compute regions (Limited availability)
+Supported services
+Plans
+IP Sharing and failover in distributed compute regions
+Create a Linode in a distributed compute region
+New data centers 2026
+NVIDIA RTX PRO 6000 Blackwell GPU Onboarding (Limited availability)
+Profile
+Security controls for user accounts
+Manage 2FA on a user account
+Enable third-party authentication on your user account
+Manage SSH keys
+Manage personal access tokens
+Reset your user password
+Profile FAQ
+Administration
+Manage users on your account
+Change your email address on your account
+Transfer services to a different account
+Parent and child accounts for Akamai partners
+Select network interfaces for new Linodes
+Select default Cloud Firewalls for new Linodes
+Cancel your account
+Quotas
+Billing
+Access billing information
+View invoices and payment history
+Update billing contact information
+Make a payment
+Manage payment methods
+Stop further billing
+Tax information
+Referral program
+Add a promo code
+Billing FAQ
+Identity and Access
+Identity and Access in Akamai Cloud
+Migration from grants to Identity and Access
+Grants vs RBAC model comparison: Linodes example
+Manage user access
+Available roles
+Single sign-on for Akamai Cloud
+Configure single sign-on
+Enable single sign-on
+Enforce single sign-on
+Test the IDP configuration
+Add SSO User Exceptions
+Add SSO-required users
+Configure IDP settings
+Create an identity provider (IDP) configuration
+Manage certificates
+Delete an identity provider (IDP) configuration
+Delegation for parent and child accounts
+Partners
+End customers
+Migrated partners
+Migrated end customers
+Identity and Access audit logs
+Compute
+Linodes
+Get started with Linodes
+Create a Linode
+Disk encryption
+Set up and secure a Linode
+Plans
+Generational compute plans
+Choose a compute plan
+Choose between shared and dedicated CPUs
+Dedicated CPU Linodes
+Shared CPU Linodes
+High Memory Linodes
+Premium Linodes
+Accelerated Linodes
+GPU Linodes
+GPU selection guidance
+vNUMA topology
+Install the NVIDIA CUDA toolkit on GPU Linodes
+Resize a Linode
+Known limitations you may encounter with NVIDIA RTX PRO 6000 Blackwell Server Edition GPU Linodes
+Choose a Linux distribution
+Default distro packages
+Package mirrors
+Manage disks and storage on a Linode
+Copy a disk over SSH
+Copy a disk to a different account
+Reset the root password on a Linode
+Clone a Linode
+Access your system console using Lish
+Access your desktop environment using Glish
+Networking
+Automatically configure networking (Network Helper)
+DNS resolvers
+Manage IP addresses on a Linode
+IPv6 on Linodes
+Configure rDNS (reverse DNS) on a Linode
+Enable IP sharing (elastic IPs) in Atlanta through FRR
+Configure failover on a Linode
+Configure IP failover over BGP using FRR (advanced)
+Use keepalived health checks with BGP-based failover
+Configure multi-queue NICs on Linodes
+Manage configuration profiles on a Linode
+Manage the kernel on a Linode
+Networking interfaces
+Manage Linode interfaces
+Manage configuration profile interfaces
+Upgrade configuration profile interfaces to Linode interfaces
+Manual network configuration on a Linode
+Network configuration using NetworkManager
+Network configuration using Netplan
+Network configuration using ifupdown
+Network configuration using systemd-networkd
+Work with placement groups
+Monitor and maintain Linodes
+Configure email alerts for resource usage on Linodes
+Linodes audit logs
+Update system packages
+Recovery and troubleshooting
+Recover from unexpected shutdowns with Lassie
+Rescue and rebuild
+Troubleshooting general issues on Linodes
+Troubleshooting basic connection issues on Linodes
+Troubleshooting SSH on Linodes
+Troubleshooting memory issues on Linodes
+Troubleshooting firewall issues on Linodes
+Troubleshooting web servers, databases, and other services
+Migrations within Akamai Cloud
+Migrate to a new data center
+Maintenance events and policies
+Linodes FAQs
+Linode Managed
+Get started with Linode Managed
+Configure credentials for Linode Managed
+Configure SSH access for Linode Managed
+Configure firewall rules to allow access for Linode Managed
+Create and edit service monitors for Linode Managed
+Manage contacts for Linode Managed
+Cancel Linode Managed
+Linode Kubernetes Engine
+LKE Enterprise
+Known issues you may encounter with LKE Enterprise
+Upgrade an LKE Enterprise cluster to a newer Kubernetes version
+Getting started with LKE
+Create a cluster
+Manage Kubernetes clusters on LKE
+Manage nodes and node pools
+Kubernetes Dashboard on LKE
+High availability (HA) control plane on LKE
+Manage a cluster with kubectl
+Kubernetes versioning and life cycle policy
+Labels and taints
+Using GPUs on LKE
+Upgrade a cluster to a newer Kubernetes version
+Control Plane ACLs
+How to drain a node pool on an LKE cluster
+Rotate Kubernetes secrets
+Reset kubeconfig
+Deploy and manage an LKE cluster with the Linode API
+Load balancing on LKE
+Secure a cluster with user permissions and RBAC
+Network and firewall details
+Create a custom CoreDNS configuration
+Akamai App Platform (for LKE)
+Getting Started with the Akamai App Platform
+Monitor LKE
+LKE audit logs
+Metrics for LKE Enterprise
+Metadata service
+Add user data when deploying Linodes
+Access the Metadata service API
+Use the Metadata service API
+Use cloud-config files to configure a server
+Troubleshoot issues with the Metadata service
+Additional resources
+Images
+Capture an image
+Upload an image
+Replicate an image
+Deploy an image to a new Linode
+Deploy an image to an existing Linode
+Manage private image sharing (Beta)
+Object Storage
+Overview
+Get started with Object Storage
+Endpoint types
+Quotas and limits
+Pricing
+Object Storage use cases
+Create and manage buckets
+Upload and manage objects
+Manage access keys
+Use URLs for access
+Access and permissions with bucket policies
+Access and permissions with ACLs
+Lifecycle policies
+Use tags and prefixes in lifecycle policies to delete objects
+Find the canonical user ID for an account
+Configure a custom domain with a TLS/SSL certificate
+Clients and tooling
+AWS CLI and SDKs support
+Use the Linode CLI with Object Storage
+Use s3cmd with Object Storage
+Use s4cmd with Object Storage
+Use Cyberduck with Object Storage
+Use the AWS CLI with Object Storage
+Use the AWS SDK for PHP with Object Storage
+Use the AWS SDK for Python (boto3) with Object Storage
+Use Grafana Loki with Object Storage
+Best practices for high-throughput applications
+Data protection
+Use Object Lock
+Versioning
+Data durability
+Design your deployments
+Default encryption at rest (SSE-S3)
+Server-side encryption with customer-provided keys (SSE-C)
+Monitor Object Storage
+Metrics for Object Storage
+Logs for Object Storage
+Cancel Object Storage
+Other Storage
+Backups
+Get started with the Backups service
+Enable backups
+Schedule backups
+Take a manual snapshot
+Restore a backup to a new Linode
+Restore a backup to an existing Linode
+Cancel backups
+Troubleshoot issues with the Backups service
+Download a local copy of a backup
+Backups FAQ
+Block Storage
+Get started with Block Storage
+Block Storage quotas
+View, create, and delete Block Storage volumes
+Manage Block Storage volumes with the Linode API
+Volume Encryption
+Attach and detach a volume
+Resize a volume
+Configure and mount a volume
+Boot from a Block Storage volume
+Transfer Block Storage data between data centers
+Transfer a volume to a different Linode
+Common Block Storage use cases
+Networking
+Linode Cloud Firewalls
+Getting started with Cloud Firewalls
+Create a Cloud Firewall
+Manage firewall rules
+Apply firewall rules to a Linode, Linode Interface, or NodeBalancer
+Update Cloud Firewall status
+Comparing Cloud Firewalls to Linux firewall software
+Delete a Cloud Firewall
+Cloud Firewalls audit logs
+NodeBalancers
+Introduction to load balancing
+Getting started with NodeBalancers
+Create a NodeBalancer
+Configuration options for NodeBalancers
+Using Proxy Protocol with NodeBalancers
+Available protocols
+Client's IP address pass-through
+Backend nodes
+TLS/SSL termination on NodeBalancers
+Manage NodeBalancers
+Monitor NodeBalancers
+NodeBalancers metrics
+NodeBalancers audit logs
+Configure NodeBalancers with the Linode API
+DNS Manager
+Getting started with DNS manager
+Create a domain
+DNS record types
+A and AAAA records
+CNAME records
+MX records
+TXT records
+NS records
+SOA record
+CAA records
+SRV records
+Manage domains
+Manage DNS records
+Configure your domain's authoritative name servers
+Incoming DNS zone transfers
+Outgoing DNS zone transfers
+Troubleshooting DNS records
+Common DNS configurations
+VPC
+Getting started with VPC
+Create a VPC
+Manage VPCs
+Manage VPC subnets
+Assign a Linode to a VPC
+Configure a forward proxy to enable internet access within a VPC
+VPC audit logs
+VLANs
+Getting started with VLANs
+Attach a VLAN to a Linode
+Detach or delete a VLAN from a Linode
+Manually configuring a VLAN on a Linode
+Common use cases for VLANs
+Create a private network with VLANs using the Linode API
+Reserved IPs
+Getting started with reserved IPs
+Reserve an IP address
+Manage and assign reserved IPs
+Databases
+Managed database clusters
+Get started with managed databases
+Database engines and plans
+Create and manage database clusters
+Advanced configuration parameters
+Monitor Managed Databases
+Managed Databases metrics (Limited availability)
+Managed Databases audit logs
+MySQL
+PostgreSQL
+Valkey (Limited availability)
+Monitoring
+Monitor cloud services
+Monitoring concepts and terminology
+Metrics (Limited availability)
+Metrics dashboards
+View metrics for multiple entities
+View metrics for a single entity
+Export metrics to external tools
+Quick start: Metrics export
+Deployment methods
+Receiver configuration
+API rate limits and request batching
+Hot reload configuration changes
+Understanding missing metrics
+Troubleshooting
+FAQs
+Metrics reference
+Alerts (Limited availability)
+Alert types and settings
+View an alert definition
+Create a user alert
+Edit an alert definition
+Enable or disable an alert
+Clone an alert
+Delete an alert
+Change the monitored entities
+Manage notification channels
+Logs
+Shared responsibilities
+Get started with logs
+Quick start: Audit logs
+Quick start: Kubernetes API audit logs
+Log streams
+Create a stream
+Manage streams
+Log destinations
+Create a destination
+Manage destinations
+Protect logs in Object Storage
+Log formats and content
+Events captured in audit logs
+Log delivery metrics
+Longview
+Get started with Longview
+View and manage Longview clients
+System metrics in Longview
+Capture Apache metrics with Longview
+Capture NGINX metrics with Longview
+Capture MySQL metrics with Longview
+Change Longview plan (upgrade to Pro)
+Troubleshooting Longview
+Tools
+Cloud Manager
+Overview of Cloud Manager
+Events and activity feeds
+Tags and groups
+Search in Cloud Manager
+Troubleshooting errors in Cloud Manager
+Linode CLI
+Get started
+Administration commands
+Domains commands
+Linode instances commands
+Linode interfaces
+LKE commands
+NodeBalancers commands
+Object Storage commands
+Support commands
+Volumes commands
+StackScripts
+Get started with StackScripts
+Create a StackScript
+Deploy a Linode using a StackScript
+Manage StackScripts
+Write a custom script for use with StackScripts
+Common use cases for StackScripts
+Use an externally hosted deployment script
+COMPUTE
+LINODES
+PLANS
+GPU Linodes
+
+Akamai offers Graphical Processing Unit (GPU)-optimized virtual machines designed to accelerate compute-intensive workloads, specifically AI inference, big data processing, and video encoding. These instances leverage specialized hardware originally engineered for high-fidelity graphics that has evolved into powerful parallel processing accelerators. By utilizing significantly more cores than a standard CPU, these GPUs manage thousands of simultaneous threads to execute the massive calculations required for modern machine learning models.
+
+The fleet includes the latest NVIDIA RTX PRO™ 6000 Blackwell Server Edition GPU, alongside the NVIDIA RTX™ 4000 Ada GPU and the Quadro RTX™ 6000 GPU. These cards harness CUDA, Tensor, and RT cores to deliver high-performance processing, AI/ML acceleration, and ray tracing. While the Quadro RTX 6000 excels in visualization and graphics processing, the RTX PRO 6000 Blackwell Server Edition GPU is engineered for the scale and complexity of data center workloads. Its architecture is ideally suited for AI inferencing, providing the necessary throughput for large-scale model deployment.
+
+For detailed specifications on the available hardware, refer to the documentation for NVIDIA RTX PRO 6000 Blackwell Server Edition, NVIDIA RTX 4000 Ada, and NVIDIA Quadro RTX 6000 GPU.
+
+
+
+NVIDIA RTX PRO 6000 Blackwell Server Edition and the NVIDIA Quadro RTX 6000 GPU plans have limited deployment availability.
+
+See the Compute Service Level Agreement for legal terms that apply to Akamai features that are in limited availability or otherwise not yet released into general availability.
+
+GPU plans are ideal for highly specialized workloads that would benefit from dedicated NVIDIA GPUs, including machine learning, AI inferencing, graphics processing, and big data analysis.
+
+On-demand
+
+When the costs associated with purchasing, installing, and maintaining GPUs are taken into account, the overall cost of ownership is often high. GPU Linodes allow you to leverage the power of GPUs while benefiting from the main value proposition of cloud: turning a CapEx into an OpEx.
+
+Market leading hardware
+
+The GPU plans use industry-leading NVIDIA GPUs with CUDA, Tensor, and RT cores in each unit. These GPUs support use cases associated with AI inferencing, parallel processing, AI/ML acceleration, and ray tracing. See GPU specifications for more details.
+
+If one GPU card isn't enough for your projected workloads, Akamai Cloud Computing offers GPU plans with up to eight cards per Linode.
+
+Dedicated competition-free resources
+
+A GPU Linode's vCPU cores are dedicated, not shared between customers-they are accessible only to you. Your Linode never has to wait for another process, which enables your software to run at peak speed and efficiency. This lets you run workloads that require full-duty work (100% CPU all day, every day) at peak performance.
+
+Recommended workloads
+
+GPU Linodes are suitable for specialized workloads that are optimized for GPUs:
+
+AI inferencing
+Big data analysis
+Video encoding
+General purpose computing using CUDA
+Graphics processing
+Availability
+GPU Plan	Regions
+NVIDIA RTX PRO 6000 Blackwell Server Edition
+(limited deployment availability)	Amsterdam, NL; Chennai, IN; Chicago, IL, US; Frankfurt, DE; Jakarta, ID; London, UK; Los Angeles, CA, US; Madrid, ES; Miami, FL, US; Mumbai, IN; Milan, IT; Newark, NJ, US; Osaka, JP; Paris, FR; Seattle, WA, US; Singapore, SG; Stockholm, SE; Tokyo, JP; Toronto, CA; Washington, DC, US.
+NVIDIA RTX 4000 Ada	Chicago, IL, US; Frankfurt 2, DE; Osaka, JP; Paris, FR; Seattle, WA, US; Singapore, SG
+NVIDIA Quadro RTX 6000
+(limited deployment availability)	Atlanta, GA, US; Newark, NJ, US; Frankfurt, DE; Mumbai, IN; Singapore, SG
+Plans and pricing
+Resource	NVIDIA RTX PRO 6000 Blackwell Server Edition	NVIDIA RTX 4000 Ada	NVIDIA Quadro RTX 6000
+GPU cards	1-8	1-4	1-4
+GPU memory (VRAM)	96 GB - 768 GB	20 GB - 80 GB	24 GB - 96 GB
+vCPU cores (dedicated)	16 - 128 cores	4 - 48 cores	8-24 cores
+Memory (RAM)	176 GB - 1408 GB	16 GB - 196 GB	32 GB - 128 GB
+Storage	1024 GB - 6597 GB	0.5 TB - 2 TB	640 GB - 2560 GB
+Outbound Network Transfer	0 TB	0 TB	16 TB - 20 TB
+Outbound Network Bandwidth	16 Gbps	10 Gbps	10 Gbps
+
+To maximize performance and efficiency across tightly coupled parallel processing workloads, these 8-card plans feature Virtual Non-Uniform Memory Access (vNUMA) capabilities. vNUMA exposes the native PCIe device topology directly to the virtual machine, allowing job schedulers and GPU communication libraries to map hardware-localized resources efficiently.
+
+Review the pricing page for additional plans and their associated costs. Review the Plans page to learn more about other Linode types.
+
+
+
+In some cases, a $100 deposit may be required to deploy GPU Linodes. This may include new accounts that have been active for less than 90 days and accounts that have spent less than $100 on services. If you are unable to deploy GPU Linodes, contact Support for assistance.
+
+GPU specifications
+
+Each NVIDIA RTX PRO 6000 Blackwell Server Edition GPU is equipped with:
+
+Specification	Value
+GPU Memory (VRAM)	96 GB GDDR7 with ECC
+CUDA Cores (Parallel-Processing)	24,064
+Tensor Cores (AI/ML Acceleration)	752 (5th Gen)
+RT Cores (Ray Tracing)	188 (4th Gen)
+FP32 Performance	120 TFLOPS
+
+Each NVIDIA RTX 4000 Ada GPU is equipped with:
+
+Specification	Value
+GPU Memory (VRAM)	20 GB GDDR6
+CUDA Cores (Parallel-Processing)	6144
+Tensor Cores (AI/ML Acceleration)	192
+RT Cores (Ray Tracing)	48
+FP32 Performance	26.7 TFLOPS
+
+Each NVIDIA Quadro RTX 6000 GPU is equipped with:
+
+Specification	Value
+GPU Memory (VRAM)	24 GB GDDR6
+CUDA Cores (Parallel-Processing)	4608
+Tensor Cores (AI/ML Acceleration)	576
+RT Cores (Ray Tracing)	72
+FP32 Performance	16.3 TFLOPS
+
+
+Not sure which GPU is right for your workload? See the GPU selection guide.
+
+GPU use cases
+AI inference, machine learning, and artificial intelligence
+
+AI inference is the production phase where a trained model processes live data to deliver actionable results. This stage requires high-performance GPU acceleration to maintain the low latency and high throughput necessary for real-time applications. By utilizing specialized hardware architectures, such as NVIDIA RTX and Blackwell, infrastructure can provide the massive parallel processing power required to transform complex models into responsive, scalable services.
+
+Machine learning applies statistical and computational techniques to large datasets in order to train models that generate predictions, classifications, and decision outputs. These models underpin recommendation systems, search relevance, fraud detection, autonomous systems, and large-scale automation. Once trained, models are deployed into production environments where they must execute rapidly, consistently, and at scale. This execution phase is referred to as AI inference.
+
+Artificial intelligence encompasses the broader class of systems designed to exhibit intelligent behavior such as reasoning, perception, language understanding, and adaptive decision making. Modern AI systems rely heavily on accelerated compute to meet latency, throughput, and concurrency requirements, particularly for real-time and multimodal workloads. GPUs provide the parallel processing density and memory bandwidth required to efficiently serve inference workloads, batch pipelines, and streaming workloads without sacrificing predictability or performance.
+
+GPU Linodes are optimized for high-throughput, low-latency inference at production scale. Its large GPU memory footprint, next-generation Tensor Cores, and architectural efficiency enable sustained token throughput, fast first-response latency, and high concurrency across multiple models and workloads. This makes it well suited for real-time model serving, agentic workflows, retrieval-augmented generation pipelines, and GPU-accelerated analytics where inference economics and operational predictability directly impact system viability.
+
+Below is a representative set of common frameworks and runtimes used for machine learning development and AI inference that can be deployed on a GPU Linode:
+
+TensorFlow - a free, open-source, machine learning framework, and deep learning library. Tensorflow was originally developed by Google for internal use and later fully released to the public under the Apache License.
+
+PyTorch - a machine learning library for Python that uses the popular GPU optimized Torch framework.
+
+Big data
+
+Big data is a discipline that analyzes and extracts meaningful insights from large and complex data sets. These sets are so large and complex that they require specialized software and hardware to appropriately capture, manage, and process the data. When thinking of big data and whether or not the term applies to you, it often helps to visualize the "three Vs":
+
+Volume: Generally, if you are working with terabytes, exabytes, petabytes, or more amounts of information you are in the realm of big data.
+
+Velocity: With Big Data, you're using data that is being created, called, moved, and interacted with at a high velocity. One example is the real time data generated on social media platforms by its users.
+
+Variety: Variety refers to the many different types of data formats with which you may need to interact. Photos, video, audio, and documents can all be written and saved in a number of different formats. It is important to consider the variety of data that you will collect in order to appropriately categorize it.
+
+GPUs can help give Big Data systems the additional computational capabilities they need for ideal performance. Below are a few examples of tools which you can use for your own big data solutions:
+
+Hadoop - an Apache project that allows the creation of parallel processing applications on large data sets, distributed across networked nodes.
+
+Apache Spark - a unified analytics engine for large-scale data processing designed with speed and ease of use in mind.
+
+Apache Storm - a distributed computation system that processes streaming data in real time.
+
+Video encoding
+
+Video Encoding is the process of taking a video file's original source format and converting it to another format that is viewable on a different device or using a different tool. This resource intensive task can be greatly accelerated using the power of GPUs.
+
+FFmpeg - a popular open-source multimedia manipulation framework that supports a large number of video formats.
+General purpose computing using CUDA
+
+CUDA (Compute Unified Device Architecture) is a parallel computing platform and API that lets you interact more directly with the GPU for general purpose computing. In practice, this means that a developer can write code in C, C++, or many other supported languages utilizing their GPU to create their own tools and programs.
+
+If you're interested in using CUDA on your GPU Linode, see the following resources:
+
+NVIDIA's library of documentation
+
+Introduction to CUDA
+
+NVIDIA's CUDA exercise repository
+
+Graphics processing
+
+One of the most traditional use cases for a GPU is graphics processing. Transforming a large set of pixels or vertices with a shader or simulating realistic lighting via ray tracing are massive parallel processing tasks. Ray tracing is a computationally intensive process that simulates lights in a scene and renders the reflections, refractions, shadows, and indirect lighting. It's impossible to do on GPUs in real-time without hardware-based ray tracing acceleration. GPU Linodes offers real-time ray tracing capabilities using a single GPU.
+
+The GPU plans support advanced shading capabilities such as:
+
+Mesh shading models for vertex, tessellation, and geometry stages in the graphics pipeline
+Variable Rate Shading to dynamically control shading rate
+Texture-Space Shading which utilizes a private memory held texture space
+Multi-View Rendering which allows for rendering multiple views in a single pass.
+
+Updated 2 months ago
+
+Accelerated Linodes
+GPU selection guidance
+Did this page help you?
+Yes
+No
+Copy Page
+On-demand
+Market leading hardware
+Dedicated competition-free resources
+Recommended workloads
+Availability
+Plans and pricing
+GPU specifications
+GPU use cases
+AI inference, machine learning, and artificial intelligence
+Big data
+Video encoding
+General purpose computing using CUDA
+Graphics processing
+Select Language
+Chinese (Simplified)
+Chinese (Traditional)
+French
+German
+Hebrew
+Italian
+Japanese
+Korean
+Polish
+Portuguese (Brazil)
+Spanish
+Powered by
+Legal & privacy
+Cookie settings
+Akamai Status
+Community
+Training
+Control Center
+Cloud Manager
+
+© 2026 Akamai Technologies
+
+Akamai.com
+Contact us
+Try Akamai
+Log in
+Your cookie choices for this website
+
+We use cookies to ensure the fast reliable and secure operation of this website, to improve your website experience, to enable certain social media interactions and to manage your cookie choices. Some cookies process personal identifiable information. By continuing to visit our websites you are agreeing to our use of cookies. Click "Manage Preferences" to make individual choices and get details on the cookies in use and the processing activities. You can access the Cookie Management Page at any time via the Cookie Settings link in the footer. For additional information relating to your privacy take a look at ourPrivacy Statement
+
+Manage Preferences

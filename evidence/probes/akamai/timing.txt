@@ -1,0 +1,21 @@
+# vantage: unspecified (timezone MDT)
+# captured_utc: 2026-09-29T18:23:06Z
+# columns: url sample http_code dns_s connect_s tls_s ttfb_s total_s remote_ip
+https://api.linode.com/v4/this-route-does-not-exist 1 404 0.004488 0.036914 0.071412 0.197993 0.198283 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 2 404 0.004106 0.036140 0.072203 0.139210 0.139425 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 3 404 0.003764 0.036127 0.070747 0.169801 0.169935 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 4 404 0.002897 0.034840 0.069052 0.148095 0.148186 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 5 404 0.002992 0.035126 0.069647 0.163757 0.164006 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 6 404 0.002767 0.034972 0.072060 0.144619 0.144857 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 7 404 0.003889 0.036252 0.070897 0.231546 0.231890 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 8 404 0.003585 0.035669 0.070324 0.149353 0.149521 23.211.124.199
+https://api.linode.com/v4/this-route-does-not-exist 9 404 0.002159 0.034423 0.070535 0.168101 0.168430 23.211.124.199
+https://api.linode.com/v4/regions 1 200 0.004550 0.036565 0.070786 0.393352 0.429042 23.211.124.199
+https://api.linode.com/v4/regions 2 200 0.004205 0.036323 0.071494 0.377518 0.411157 23.211.124.199
+https://api.linode.com/v4/regions 3 200 0.003248 0.035630 0.070872 0.427123 0.460940 23.211.124.199
+https://api.linode.com/v4/regions 4 200 0.004401 0.036650 0.072155 0.384539 0.419771 23.211.124.199
+https://api.linode.com/v4/regions 5 200 0.004847 0.036737 0.071290 0.368849 0.402302 23.211.124.199
+https://api.linode.com/v4/regions 6 200 0.002827 0.034805 0.079349 0.439061 0.472520 23.211.124.199
+https://api.linode.com/v4/regions 7 200 0.004157 0.036048 0.070922 0.508788 0.543704 23.211.124.199
+https://api.linode.com/v4/regions 8 200 0.004075 0.035867 0.070516 0.367456 0.403298 23.211.124.199
+https://api.linode.com/v4/regions 9 200 0.003988 0.036547 0.079668 0.377783 0.412067 23.211.124.199

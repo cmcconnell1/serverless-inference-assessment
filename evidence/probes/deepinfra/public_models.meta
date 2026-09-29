@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: public_models
+method: GET
+url: https://api.deepinfra.com/models/list
+http_code: 200
+captured_utc: 2026-09-29T18:21:52Z
+body_bytes: 432819
+body_sha256: f7acfda7316c41f762f69252101f7f0ce5e37f98d84c73047bc06145a10d0236
+body_encoding: json, non-ASCII escaped as \uXXXX

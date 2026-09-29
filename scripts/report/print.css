@@ -1,0 +1,131 @@
+/* print.css: layout for the single-file PDF rendered by headless Chrome.
+   Type: IBM Plex Sans and Plex Mono (SIL OFL 1.1, fonts/OFL.txt), embedded by pandoc.
+   Palette: near-black text, navy structure, one teal accent. */
+
+@font-face { font-family: "Plex Sans"; font-weight: 400; font-style: normal; src: url("fonts/IBMPlexSans-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-weight: 400; font-style: italic; src: url("fonts/IBMPlexSans-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-weight: 500; font-style: normal; src: url("fonts/IBMPlexSans-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-weight: 600; font-style: normal; src: url("fonts/IBMPlexSans-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Plex Sans"; font-weight: 700; font-style: normal; src: url("fonts/IBMPlexSans-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Plex Mono"; font-weight: 400; font-style: normal; src: url("fonts/IBMPlexMono-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Plex Mono"; font-weight: 600; font-style: normal; src: url("fonts/IBMPlexMono-SemiBold.woff2") format("woff2"); }
+
+:root {
+  --ink: #111827;          /* body text */
+  --ink-2: #374151;        /* secondary text that must stay readable */
+  --muted: #6b7280;        /* running header and footer only */
+  --navy: #0b2545;         /* headings, table headers, cover */
+  --accent: #0f766e;       /* rules, links, callout edges */
+  --accent-light: #5eead4; /* accent on the navy cover */
+  --rule: #d1d5db;
+  --band: #f3f4f6;
+  --zebra: #f7f8fa;
+  --sans: "Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Plex Mono", Menlo, Consolas, monospace;
+}
+
+@page {
+  size: A4;
+  margin: 18mm 15mm 18mm 15mm;
+  @top-left { content: "Serverless Inference Assessment"; font: 500 8pt "Plex Sans", sans-serif; color: #6b7280; }
+  @bottom-right { content: counter(page) " / " counter(pages); font: 500 8pt "Plex Sans", sans-serif; color: #6b7280; }
+}
+@page cover { margin: 0; @top-left { content: none; } @bottom-right { content: none; } }
+@page wide { size: A4 landscape; }
+
+html { font: 400 10pt/1.5 var(--sans); color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; }
+strong, b { font-weight: 600; }
+
+/* Cover: full-bleed navy page with label, title, subtitle, and a metadata strip. */
+header#title-block-header {
+  page: cover; break-after: page; position: relative; box-sizing: border-box;
+  height: 296mm; margin: 0; padding: 0 22mm;
+  display: flex; flex-direction: column; justify-content: center;
+  background: var(--navy); color: #ffffff;
+}
+header#title-block-header::before {
+  content: "Competitive assessment"; text-transform: uppercase; letter-spacing: 0.22em;
+  font-size: 9pt; font-weight: 600; color: var(--accent-light); margin-bottom: 7mm;
+}
+header#title-block-header h1.title {
+  font-size: 38pt; font-weight: 700; line-height: 1.08; color: #ffffff;
+  margin: 0; padding: 0; border: none;
+}
+header#title-block-header h1.title::after {
+  content: ""; display: block; width: 36mm; height: 1.4mm; background: var(--accent-light); margin-top: 9mm;
+}
+header#title-block-header .subtitle { font-size: 15pt; font-weight: 400; line-height: 1.35; color: #d1d9e6; margin: 8mm 0 0 0; max-width: 150mm; }
+header#title-block-header .date {
+  position: absolute; left: 22mm; right: 22mm; bottom: 24mm; margin: 0;
+  display: flex; gap: 8mm; border-top: 0.6pt solid rgba(255, 255, 255, 0.3); padding-top: 5mm;
+}
+header#title-block-header .meta { display: flex; flex-direction: column; gap: 1mm; }
+header#title-block-header .meta .k { font-size: 7.5pt; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #9fb0c8; }
+header#title-block-header .meta .v { font-size: 10.5pt; font-weight: 500; color: #ffffff; white-space: nowrap; }
+header#title-block-header .meta:last-child .v { white-space: normal; }
+
+/* Contents: dotted leaders and page numbers injected by toc_pages.py. */
+nav#TOC { break-after: page; font-size: 10pt; }
+nav#TOC::before {
+  content: "Contents"; display: block; font-size: 22pt; font-weight: 700; color: var(--navy);
+  padding-bottom: 2.5mm; border-bottom: 3px solid var(--accent); margin-bottom: 6mm;
+}
+nav#TOC ul { list-style: none; padding-left: 0; margin: 0; }
+nav#TOC > ul > li { margin: 0 0 3mm 0; break-inside: avoid; }
+nav#TOC > ul > li > a { font-weight: 600; color: var(--navy); }
+nav#TOC ul ul { padding-left: 7mm; margin-top: 1mm; font-size: 9.5pt; }
+nav#TOC ul ul li { margin: 0.8mm 0; }
+nav#TOC ul ul a { color: var(--ink-2); }
+nav#TOC a { display: flex; align-items: last baseline; text-decoration: none; }
+nav#TOC a::after { content: ""; order: 1; flex: 1 1 auto; min-width: 8mm; margin: 0 2mm; border-bottom: 1px dotted #9ca3af; }
+nav#TOC .toc-page { order: 2; min-width: 6mm; text-align: right; font-variant-numeric: tabular-nums; }
+
+.chapter { break-before: page; }
+.ch-04b, .evidence { page: wide; }
+.evidence { break-before: page; }
+
+h1 { font-size: 22pt; font-weight: 700; line-height: 1.15; color: var(--navy); margin: 0 0 5mm 0; padding-bottom: 2.5mm; border-bottom: 3px solid var(--accent); }
+h2 { font-size: 14pt; font-weight: 600; line-height: 1.25; color: var(--navy); margin: 7mm 0 2.5mm 0; break-after: avoid; }
+h3 { font-size: 11.5pt; font-weight: 600; color: var(--ink); margin: 5mm 0 2mm 0; break-after: avoid; }
+h4 { font-size: 10.5pt; font-weight: 600; color: var(--ink-2); margin: 4mm 0 1.5mm 0; break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+p { margin: 0 0 2.5mm 0; }
+li { margin: 0.8mm 0; }
+blockquote { margin: 3mm 0; padding: 1mm 0 1mm 4mm; border-left: 3px solid var(--rule); color: var(--ink-2); }
+
+a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+code { font: 400 8.5pt var(--mono); overflow-wrap: anywhere; background: var(--band); padding: 0 0.8mm; border-radius: 2px; }
+pre { white-space: pre-wrap; background: var(--band); padding: 2.5mm 3.5mm; border-radius: 3px; }
+pre code { background: none; padding: 0; }
+
+/* Tables: navy header row, zebra body, bold first column. */
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm 0; font-size: 8.5pt; line-height: 1.4; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th, td { padding: 1.6mm 2mm; vertical-align: top; text-align: left; overflow-wrap: break-word; }
+th { background: var(--navy); color: #ffffff; font-weight: 600; border: 0.5pt solid var(--navy); }
+td { border: 0.5pt solid #e5e7eb; }
+tbody tr:nth-child(even) td { background: var(--zebra); }
+th:first-child, td:first-child { min-width: 24mm; }
+td:first-child { font-weight: 600; color: var(--navy); }
+td code, th code { overflow-wrap: anywhere; }
+col { width: auto !important; }
+
+img.diagram { display: block; max-width: 100%; max-height: 235mm; margin: 4mm auto; break-inside: avoid; }
+p:has(> img.diagram) { break-inside: avoid; }
+
+/* Key insights: one callout per finding, bold headline sentence over supporting bullets,
+   on its own page ahead of the competitor snapshot. */
+h2#key-insights + ul { list-style: none; padding: 0; margin: 3mm 0 0 0; break-after: page; }
+h2#key-insights + ul > li {
+  border-left: 4px solid var(--accent); background: var(--band);
+  padding: 3.5mm 4.5mm; margin: 0 0 4mm 0; break-inside: avoid;
+}
+h2#key-insights + ul > li > strong:first-child,
+h2#key-insights + ul > li > p:first-child > strong:first-child { display: block; font-size: 12pt; font-weight: 700; line-height: 1.3; color: var(--navy); }
+h2#key-insights + ul > li ul { list-style: disc; padding-left: 5mm; margin: 2mm 0 0 0; }
+h2#key-insights + ul > li ul li { margin: 1mm 0; }
+
+.evidence h2 { font-size: 12.5pt; }
+.evidence table { font-size: 7.5pt; }

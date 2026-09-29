@@ -1,0 +1,9 @@
+provider: akamai
+probe: docs_head
+method: HEAD
+url: https://techdocs.akamai.com/cloud-computing/docs
+http_code: 301
+captured_utc: 2026-09-29T18:23:03Z
+body_bytes: 1552
+body_sha256: 2a3f8643c26803af7b727352ee038a5dbeb6b8ee1aa2a0db48237aff7412a2fd
+body_encoding: raw

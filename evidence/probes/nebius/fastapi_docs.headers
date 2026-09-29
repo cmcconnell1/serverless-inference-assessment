@@ -1,0 +1,12 @@
+HTTP/2 200 
+date: Tue, 29 Sep 2026 18:22:39 GMT
+content-type: text/html; charset=utf-8
+content-length: 1037
+vary: Accept-Encoding
+vary: Accept-Encoding
+access-control-allow-origin: *
+vary: Origin
+access-control-allow-credentials: true
+x-request-id: 6194b47fc5cac3137752980f1560e3a9
+strict-transport-security: max-age=31536000; includeSubDomains
+

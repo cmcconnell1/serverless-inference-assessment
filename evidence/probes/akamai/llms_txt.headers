@@ -1,0 +1,32 @@
+HTTP/2 200 
+content-language: en
+content-type: text/plain; charset=utf-8
+etag: W/"528-HbowctkowdPPtl/7ewp3+tnzzso"
+link: <https://techdocs.akamai.com/cloud-computing/.well-known/api-catalog>; rel="api-catalog", <https://techdocs.akamai.com/cloud-computing>; rel="service-doc", <https://techdocs.akamai.com/cloud-computing/.well-known/agent-skills/index.json>; rel="agent-skills"
+rndr-id: eb9eb0c5-ca7a-4baa
+x-cache-status: EXPIRED
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: Deny
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+x-ratelimit-reset: 1790706181
+x-render-origin-server: Render
+expires: Tue, 29 Sep 2026 18:23:00 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Tue, 29 Sep 2026 18:23:00 GMT
+content-length: 1320
+server-timing: edge; dur=3
+server-timing: origin; dur=567
+server-timing: cdn-cache; desc=MISS
+expect-ct: max-age=3600, report-uri=https://reporting.go-mpulse.net/report/LJNDE-NVZPR-JZZFD-J7MKS-L78ZZ
+nel: {"report_to":"default","max_age":3600,"include_subdomains":true}
+content-security-policy-report-only: report-uri https://reporting.go-mpulse.net/report/LJNDE-NVZPR-JZZFD-J7MKS-L78ZZ
+report-to: {"max_age":3600,"endpoints":[{"url":"https://reporting.go-mpulse.net/report/LJNDE-NVZPR-JZZFD-J7MKS-L78ZZ"}],"include_subdomains":true}
+x-xss-protection: 1; mode=block; report=https://reporting.go-mpulse.net/report/LJNDE-NVZPR-JZZFD-J7MKS-L78ZZ
+strict-transport-security: max-age=31536000
+akamai-grn: 0.298d2117.1790706179.8ebfe6e
+server-timing: ak_p; desc="1790706179648_388074793_149683822_56886_21696_31_35_15";dur=1
+

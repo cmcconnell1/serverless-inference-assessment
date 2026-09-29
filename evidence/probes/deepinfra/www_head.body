@@ -1,0 +1,16 @@
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 755
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline
+content-type: text/html; charset=utf-8
+date: Tue, 29 Sep 2026 18:22:23 GMT
+etag: "51f03fc591c8a01b0198c5b49b2e7c8a"
+last-modified: Tue, 29 Sep 2026 18:09:48 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-cache: HIT
+x-vercel-id: pdx1::8dds6-1790706143839-91d8f1430984
+content-length: 560642
+

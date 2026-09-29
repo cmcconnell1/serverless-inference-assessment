@@ -1,0 +1,9 @@
+provider: akamai
+probe: noauth
+method: GET
+url: https://api.linode.com/v4/profile
+http_code: 401
+captured_utc: 2026-09-29T18:22:56Z
+body_bytes: 41
+body_sha256: 9ddf5507a7636f45df066ca14ba6ab8635cf76dbf9a8015b2d08ea6b0629858d
+body_encoding: json, non-ASCII escaped as \uXXXX

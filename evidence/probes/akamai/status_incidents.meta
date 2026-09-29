@@ -1,0 +1,9 @@
+provider: akamai
+probe: status_incidents
+method: GET
+url: https://status.linode.com/api/v2/incidents.json
+http_code: 200
+captured_utc: 2026-09-29T18:23:01Z
+body_bytes: 1112271
+body_sha256: a17ec843249b211ecd630c1eb09a3f9f9925a1005f211437bdd54d76e79bbab5
+body_encoding: json, non-ASCII escaped as \uXXXX

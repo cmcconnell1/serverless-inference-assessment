@@ -1,0 +1,14 @@
+akamai regions GET https://api.linode.com/v4/regions -> 200
+akamai noauth GET https://api.linode.com/v4/profile -> 401
+akamai badkey GET https://api.linode.com/v4/profile -> 401
+akamai notfound GET https://api.linode.com/v4/this-route-does-not-exist -> 404
+akamai options OPTIONS https://api.linode.com/v4/profile -> 200
+akamai api_catalog GET https://techdocs.akamai.com/cloud-computing/.well-known/api-catalog -> 404
+akamai agent_skills GET https://techdocs.akamai.com/cloud-computing/.well-known/agent-skills/index.json -> 200
+akamai llms_txt GET https://techdocs.akamai.com/cloud-computing/llms.txt -> 200
+akamai openapi GET https://raw.githubusercontent.com/linode/linode-api-docs/development/openapi.json -> 200
+akamai status GET https://status.linode.com/api/v2/summary.json -> 200
+akamai status_incidents GET https://status.linode.com/api/v2/incidents.json -> 200
+akamai docs_head HEAD https://techdocs.akamai.com/cloud-computing/docs -> 301
+akamai www_head HEAD https://www.akamai.com/products/cloud-computing-services -> 403
+akamai inference_head HEAD https://www.akamai.com/solutions/ai-inference -> 403

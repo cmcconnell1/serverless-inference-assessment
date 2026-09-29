@@ -1,0 +1,9 @@
+8075    | 150.171.110.151  | 150.171.0.0/16      | US | arin     | 2015-11-24 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+214415  | 213.239.161.19   | 213.239.160.0/21    | NL | ripencc  | 2000-09-19 | NebiusPA10 - Nebius B.V., NL
+8075    | 2603:1061:14:90::1                       | 2603:1000::/25      | US | arin     | 2014-06-05 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+16509   | 52.85.129.111    | 52.85.129.0/24      | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.85.129.52     | 52.85.129.0/24      | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.85.129.58     | 52.85.129.0/24      | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.85.129.63     | 52.85.129.0/24      | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 66.33.60.130     | 66.33.60.0/24       | US | arin     | 2024-03-21 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 76.76.21.61      | 76.76.21.0/24       | US | arin     | 2020-05-08 | AMAZON-02 - Amazon.com, Inc., US

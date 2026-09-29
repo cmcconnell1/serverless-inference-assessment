@@ -1,0 +1,31 @@
+== inference.baseten.co ==
+inference.baseten.co.	4	IN	A	35.244.129.243
+
+== api.baseten.co ==
+api.baseten.co.		29	IN	A	34.213.59.59
+api.baseten.co.		29	IN	A	44.226.28.245
+api.baseten.co.		29	IN	A	16.145.45.198
+
+== docs.baseten.co ==
+docs.baseten.co.	231	IN	CNAME	cname.vercel-dns.com.
+cname.vercel-dns.com.	231	IN	A	66.33.60.130
+cname.vercel-dns.com.	231	IN	A	76.76.21.61
+docs.baseten.co.	56	IN	CNAME	cname.vercel-dns.com.
+docs.baseten.co.	56	IN	CNAME	cname.vercel-dns.com.
+
+== www.baseten.co ==
+www.baseten.co.		203	IN	CNAME	cname.vercel-dns.com.
+cname.vercel-dns.com.	300	IN	A	76.76.21.22
+cname.vercel-dns.com.	300	IN	A	66.33.60.129
+www.baseten.co.		153	IN	CNAME	cname.vercel-dns.com.
+www.baseten.co.		203	IN	CNAME	cname.vercel-dns.com.
+
+== status.baseten.co ==
+status.baseten.co.	298	IN	CNAME	8dp3vkb2h71c.stspg-customer.com.
+8dp3vkb2h71c.stspg-customer.com. 58 IN	A	143.204.160.96
+8dp3vkb2h71c.stspg-customer.com. 58 IN	A	143.204.160.43
+8dp3vkb2h71c.stspg-customer.com. 58 IN	A	143.204.160.2
+8dp3vkb2h71c.stspg-customer.com. 58 IN	A	143.204.160.38
+status.baseten.co.	300	IN	CNAME	8dp3vkb2h71c.stspg-customer.com.
+status.baseten.co.	300	IN	CNAME	8dp3vkb2h71c.stspg-customer.com.
+

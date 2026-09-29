@@ -1,0 +1,12 @@
+HTTP/2 200 
+date: Tue, 29 Sep 2026 18:22:37 GMT
+content-type: application/json
+content-length: 32708
+vary: Accept-Encoding
+vary: Accept-Encoding
+access-control-allow-origin: *
+vary: Origin
+access-control-allow-credentials: true
+x-request-id: 2f9e3a749596759ba532b2ab67ad6249
+strict-transport-security: max-age=31536000; includeSubDomains
+

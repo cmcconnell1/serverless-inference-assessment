@@ -1,0 +1,9 @@
+provider: nebius
+probe: docs_head_legacy
+method: HEAD
+url: https://docs.nebius.com/studio/inference
+http_code: 308
+captured_utc: 2026-09-29T18:22:44Z
+body_bytes: 2254
+body_sha256: afd8ea845f20e95e06645651e40268ccb274538a83f063b4320d0df34f88a0fa
+body_encoding: raw

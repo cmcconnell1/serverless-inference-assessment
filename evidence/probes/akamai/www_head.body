@@ -1,0 +1,22 @@
+HTTP/1.1 403 Forbidden
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 409
+Cache-Control: max-age=0
+Date: Tue, 29 Sep 2026 18:23:03 GMT
+Connection: close
+Alt-Svc: h3=":443"; ma=93600
+X-Akam-SW-Version: 0.5.0
+Set-Cookie: akaas_production=2147483647~rv=18~id=bc7c047755a9fa6cd36486c2e2d72102; path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+expect-ct: max-age=3600, report-uri=https://reporting.go-mpulse.net/report/FDSGP-LEB9B-T8Y2A-5V5ED-9WX2T
+nel: {"report_to":"default","max_age":3600,"include_subdomains":true}
+content-security-policy-report-only: report-uri https://reporting.go-mpulse.net/report/FDSGP-LEB9B-T8Y2A-5V5ED-9WX2T
+report-to: {"max_age":3600,"endpoints":[{"url":"https://reporting.go-mpulse.net/report/FDSGP-LEB9B-T8Y2A-5V5ED-9WX2T"}],"include_subdomains":true}
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block; report=https://reporting.go-mpulse.net/report/FDSGP-LEB9B-T8Y2A-5V5ED-9WX2T
+X-Frame-Options: SAMEORIGIN
+Akamai-GRN: 0.058d2117.1790706183.9136ac1
+Accept-CH: DPR, Downlink, Save-Data, Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width, Viewport-Width, Width
+Server-Timing: ak_p; desc="1790706183372_388074757_152267457_22_24280_32_40_-";dur=1
+

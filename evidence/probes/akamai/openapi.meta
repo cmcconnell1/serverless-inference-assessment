@@ -1,0 +1,9 @@
+provider: akamai
+probe: openapi
+method: GET
+url: https://raw.githubusercontent.com/linode/linode-api-docs/development/openapi.json
+http_code: 200
+captured_utc: 2026-09-29T18:23:00Z
+body_bytes: 7911272
+body_sha256: c057aa23ec74f53c70ceebc95e06dd8951c078e5b2139cd6b85597e44e0608d6
+body_encoding: json, non-ASCII escaped as \uXXXX

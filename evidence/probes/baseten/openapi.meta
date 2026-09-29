@@ -1,0 +1,9 @@
+provider: baseten
+probe: openapi
+method: GET
+url: https://api.baseten.co/v1/spec
+http_code: 200
+captured_utc: 2026-09-29T18:21:44Z
+body_bytes: 1462607
+body_sha256: 9723b87276dace2704bc0b9e5f98ec9fa2d93903e4dcad5f944719101f20ab40
+body_encoding: json, non-ASCII escaped as \uXXXX

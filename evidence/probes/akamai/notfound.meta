@@ -1,0 +1,9 @@
+provider: akamai
+probe: notfound
+method: GET
+url: https://api.linode.com/v4/this-route-does-not-exist
+http_code: 404
+captured_utc: 2026-09-29T18:22:57Z
+body_bytes: 37
+body_sha256: 91de4f2466c0ab04747b96caa46b44126a5175a3965d1c7eeb87067b8c88481f
+body_encoding: json, non-ASCII escaped as \uXXXX

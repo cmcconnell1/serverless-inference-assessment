@@ -1,0 +1,9 @@
+provider: nebius
+probe: fastapi_docs
+method: GET
+url: https://api.studio.nebius.com/docs
+http_code: 200
+captured_utc: 2026-09-29T18:22:39Z
+body_bytes: 1037
+body_sha256: 67472fe22e16918c07eb353196faf85be26933af78d352c742bb704d59adc930
+body_encoding: raw

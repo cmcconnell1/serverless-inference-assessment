@@ -1,0 +1,16 @@
+16509   | 108.138.94.107   | 108.138.92.0/22     | US | arin     | 2018-09-18 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 108.138.94.17    | 108.138.92.0/22     | US | arin     | 2018-09-18 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 108.138.94.32    | 108.138.92.0/22     | US | arin     | 2018-09-18 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 108.138.94.76    | 108.138.92.0/22     | US | arin     | 2018-09-18 | AMAZON-02 - Amazon.com, Inc., US
+20940   | 23.211.124.199   | 23.211.124.0/24     | US | arin     | 2013-07-12 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 23.211.124.208   | 23.211.124.0/24     | US | arin     | 2013-07-12 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 23.45.123.37     | 23.45.123.0/24      | US | arin     | 2011-05-16 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 23.45.123.41     | 23.45.123.0/24      | US | arin     | 2011-05-16 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 23.45.123.42     | 23.45.123.0/24      | US | arin     | 2011-05-16 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 23.45.123.5      | 23.45.123.0/24      | US | arin     | 2011-05-16 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 2600:1405:401:6::17d8:665                | 2600:1405:401::/48  | US | arin     | 2010-04-21 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 2600:1405:401:6::17d8:666                | 2600:1405:401::/48  | US | arin     | 2010-04-21 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 2600:1405:401:6::17d8:669                | 2600:1405:401::/48  | US | arin     | 2010-04-21 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 2600:1405:401:6::17d8:66c                | 2600:1405:401::/48  | US | arin     | 2010-04-21 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 2600:1405:401:6::17d8:670                | 2600:1405:401::/48  | US | arin     | 2010-04-21 | AKAMAI-ASN1 - Akamai International B.V., NL
+20940   | 2600:1405:401:6::17d8:671                | 2600:1405:401::/48  | US | arin     | 2010-04-21 | AKAMAI-ASN1 - Akamai International B.V., NL

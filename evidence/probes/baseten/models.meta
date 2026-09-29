@@ -1,0 +1,9 @@
+provider: baseten
+probe: models
+method: GET
+url: https://inference.baseten.co/v1/models
+http_code: 401
+captured_utc: 2026-09-29T18:21:42Z
+body_bytes: 33
+body_sha256: fa8332db431b2b589f78a65504a4cc7b3504bd37321b90b5aa093f1f45f33d29
+body_encoding: raw

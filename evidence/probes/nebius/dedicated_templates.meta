@@ -1,0 +1,9 @@
+provider: nebius
+probe: dedicated_templates
+method: GET
+url: https://api.tokenfactory.nebius.com/v0/dedicated_endpoints/templates
+http_code: 200
+captured_utc: 2026-09-29T18:22:38Z
+body_bytes: 32708
+body_sha256: 971877978f96566548a5022e183f3b6efd024d2458476046dd35851142baebb9
+body_encoding: json, non-ASCII escaped as \uXXXX

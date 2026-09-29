@@ -1,0 +1,9 @@
+provider: nebius
+probe: openapi_tf
+method: GET
+url: https://api.tokenfactory.nebius.com/openapi.json
+http_code: 200
+captured_utc: 2026-09-29T18:22:39Z
+body_bytes: 280427
+body_sha256: 706e7e02930deaf91672a0f507ed28dfd27d4fac607c532cb636efce2c442793
+body_encoding: json, non-ASCII escaped as \uXXXX

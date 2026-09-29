@@ -1,0 +1,27 @@
+doc	url	phrase
+01 Baseten uptime claim	https://www.baseten.co/	99.99% uptime
+01 Baseten cold-start claim	https://www.baseten.co/	blazing-fast cold starts
+01 Baseten tagline	https://www.baseten.co/	Inference is everything
+01 Baseten SLA level	https://www.baseten.co/service-level-agreement/	99.9%
+01 Baseten SLA credit cap	https://www.baseten.co/service-level-agreement/	forty percent (40%)
+01 DeepInfra terms	https://deepinfra.com/terms	commercially reasonable efforts
+01 Nebius serverless region	https://docs.tokenfactory.nebius.com/public-serverless.md	No region guarantee
+01 Nebius TTFT claim	https://nebius.com/services/token-factory/inference-service	sub-second
+01 Nebius June deprecation	https://docs.tokenfactory.nebius.com/june-2026-deprecation-notice.md	-fast
+04a Baseten H100 per-minute	https://www.baseten.co/pricing/	0.10833
+04a Baseten B200 per-minute	https://www.baseten.co/pricing/	0.16633
+04a DeepInfra H100	https://deepinfra.com/pricing	$2.20
+04a DeepInfra B200	https://deepinfra.com/pricing	$3.69
+04a Akamai RTX PRO 6000 price	https://www.akamai.com/cloud/pricing/north-america	RTX PRO 6000 Blackwell x1 $3.00
+04a Akamai RTX PRO 6000 regions	https://techdocs.akamai.com/cloud-computing/docs/gpu-compute-instances	limited deployment availability
+04a Akamai RTX PRO 6000 request access	https://www.akamai.com/cloud/pricing/north-america	$24.00 1408 GB 8 768 GB 128 6144 GB 0 TB 40/16 Gbps Request access
+04a TRT-LLM RTX PRO 6000 Llama 70B	https://nvidia.github.io/TensorRT-LLM/latest/developer-guide/perf-overview.html	1,724
+04a TRT-LLM B200 Llama 70B	https://nvidia.github.io/TensorRT-LLM/latest/developer-guide/perf-overview.html	6,920
+02 DeepInfra priority surcharge	https://docs.deepinfra.com/chat/overview	50% surcharge
+02 TGI maintenance mode	https://github.com/huggingface/text-generation-inference	maintenance mode
+03 Baseten default max_tokens	https://docs.baseten.co/reference/inference-api/chat-completions.md	4096
+03 Nebius default max_tokens	https://docs.tokenfactory.nebius.com/api-reference/inference/create-chat-completion.md	8192
+04a Nebius RTX PRO 6000 on-demand	https://nebius.com/prices	$1.80
+04a Nebius H100 on-demand	https://nebius.com/prices	$3.85
+04a Akamai GPU blog cost claim	https://www.akamai.com/blog/cloud/why-gpu-card-counts-matter-real-ai-workloads	28% lower cost per million tokens
+04a Akamai serverless inference job	https://jobs.akamai.com/en/sites/CX_1/job/2688	serverless inference platform

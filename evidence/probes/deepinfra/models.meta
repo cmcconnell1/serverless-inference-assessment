@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: models
+method: GET
+url: https://api.deepinfra.com/v1/openai/models
+http_code: 200
+captured_utc: 2026-09-29T18:21:50Z
+body_bytes: 125675
+body_sha256: c6c1b5505453ac774e60761fa530d319e1ef84993c519739dd130e04b0216eb8
+body_encoding: json, non-ASCII escaped as \uXXXX

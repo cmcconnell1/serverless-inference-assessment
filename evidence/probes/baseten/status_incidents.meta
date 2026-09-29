@@ -1,0 +1,9 @@
+provider: baseten
+probe: status_incidents
+method: GET
+url: https://status.baseten.co/api/v2/incidents.json
+http_code: 200
+captured_utc: 2026-09-29T18:21:45Z
+body_bytes: 111180
+body_sha256: 64780d126f465357c0c4b41a50b88dd96f163dc5691e8913381b7b133e0de603
+body_encoding: json, non-ASCII escaped as \uXXXX

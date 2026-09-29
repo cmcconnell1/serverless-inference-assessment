@@ -1,0 +1,666 @@
+url: https://www.akamai.com/cloud/pricing/north-america
+captured_utc: 2026-09-29T03:46Z
+normalization: typographic characters rewritten to ASCII, symbols and format characters removed
+method: page text (document.body.innerText) read from Google Chrome 154.0.8037.58 , interactive user session, via AppleScript
+---
+English
+Docs
+Partners
+Sales
+Support
+Under Attack ?
+Log in
+Cloud Manager
+Manage your cloud computing services
+Control Center
+Manage your security and delivery services
+Products
+Solutions
+Pricing
+Developers
+Resources
+Create account
+Predictable Pricing
+/
+North America Cloud Computing Costs and Pricing
+Akamai Cloud Predictable Pricing for North America
+
+Available in Atlanta, Chicago, Dallas, Fremont, Los Angeles, Miami, Newark, Seattle, Toronto, and Washington, D.C.
+
+Sign up
+Compute
+Storage
+Databases
+Networking
+Services
+FAQ
+See product availability
+Skip the pricing tables. Tell us what you need and we'll put together your predictable cloud price.
+Contact us
+Compute
+
+Egress overage costs = US$0.005 per GB
+
+COMPUTE
+GPU plans
+
+Dedicated virtual machines equipped with NVIDIA GPUs to speed up complex compute jobs.
+
+See product details
+View documentation
+RTX PRO™ 6000 Blackwell Server Edition
+RTX™ 4000 Ada Generation
+RTX 6000 Quadro
+
+RTX PRO™ 6000 Blackwell Server Edition
+
+Plan	$/Hr	RAM	GPUs	VRAM	vCPUs	Storage	Transfer	Network In/Out	 
+RTX PRO 6000 Blackwell x1	$3.00	176 GB	1	96 GB	16	1024 GB	0 TB	40/16 Gbps	Request access
+RTX PRO 6000 Blackwell x2	$6.00	352 GB	2	192 GB	32	2048 GB	0 TB	40/16 Gbps	Request access
+RTX PRO 6000 Blackwell x4	$12.00	704 GB	4	384 GB	64	4096 GB	0 TB	40/16 Gbps	Request access
+RTX PRO 6000 Blackwell x8	$24.00	1408 GB	8	768 GB	128	6144 GB	0 TB	40/16 Gbps	Request access
+COMPUTE
+Dedicated CPU plans
+
+Dedicated virtual machines for CPU-intensive applications.
+
+See product details
+G8 dedicated compute
+G8 dedicated general
+G7 dedicated compute
+G6 dedicated compute
+
+High-consistency compute powered by 5th Gen AMD EPYC™ processors with new 1:2 VM shapes and expanded memory options. Designed for enterprise-grade, latency-sensitive, and resource-heavy applications.
+
+Plan	$/Hr	RAM	vCPUs	Storage	Transfer	Network In/Out
+G8 Dedicated 4x2	$0.07	4 GB	2	40 GB	0 TB	40/4 Gbps	Sign Up
+G8 Dedicated 8x4	$0.14	8 GB	4	80 GB	0 TB	40/5 Gbps	Sign Up
+G8 Dedicated 16x8	$0.27	16 GB	8	160 GB	0 TB	40/6 Gbps	Sign Up
+G8 Dedicated 32x16	$0.54	32 GB	16	320 GB	0 TB	40/7 Gbps	Sign Up
+G8 Dedicated 64x32	$1.08	64 GB	32	640 GB	0 TB	40/8 Gbps	Sign Up
+G8 Dedicated 96x48	$1.62	96 GB	48	960 GB	0 TB	40/9 Gbps	Sign Up
+G8 Dedicated 128x64	$2.16	128 GB	64	1280 GB	0 TB	40/10 Gbps	Sign Up
+G8 Dedicated 256x128	$4.32	256 GB	128	2560 GB	0 TB	40/11 Gbps	Sign Up
+G8 Dedicated 512x256	$8.64	512 GB	256	5120 GB	0 TB	40/12 Gbps	Sign Up
+COMPUTE
+Shared CPU plans
+
+Shared CPU on legacy hardware for cost-efficient development, testing, and variable workloads.
+
+
+See product details
+Plan	$/Mo	$/Hr	RAM	CPUs	Storage	Transfer	Network In/Out	 
+Nanode 1 GB	$5.00	$0.0075	1 GB	1	25 GB	1 TB	40/1 Gbps	Sign Up
+Linode 2 GB	$12.00	$0.0180	2 GB	1	50 GB	2 TB	40/2 Gbps	Sign Up
+Linode 4 GB	$24.00	$0.0360	4 GB	2	80 GB	4 TB	40/4 Gbps	Sign Up
+Linode 8 GB	$48.00	$0.0720	8 GB	4	160 GB	5 TB	40/5 Gbps	Sign Up
+Linode 16 GB	$96.00	$0.1440	16 GB	6	320 GB	8 TB	40/6 Gbps	Sign Up
+Linode 32 GB	$192.00	$0.2880	32 GB	8	640 GB	16 TB	40/7 Gbps	Sign Up
+Linode 64 GB	$384.00	$0.5760	64 GB	16	1280 GB	20 TB	40/9 Gbps	Sign Up
+Linode 96 GB	$576.00	$0.8640	96 GB	20	1920 GB	20 TB	40/10 Gbps	Sign Up
+Linode 128 GB	$768.00	$1.1520	128 GB	24	2560 GB	20 TB	40/11 Gbps	Sign Up
+Linode 192 GB	$1,152.00	$1.7280	192 GB	32	3840 GB	20 TB	40/12 Gbps	Sign Up
+COMPUTE
+High Memory plans
+
+Virtual machines optimized with dedicated cores for memory-intensive applications.
+
+
+See product details
+Plan	$/Mo	$/Hr	RAM	CPUs	Storage	Transfer	Network In/Out	 
+Linode 24 GB	$60.00	$0.09	24 GB	2	20 GB	5 TB	40/5 Gbps	Sign Up
+Linode 48 GB	$120.00	$0.18	48 GB	2	40 GB	6 TB	40/6 Gbps	Sign Up
+Linode 90 GB	$240.00	$0.36	90 GB	4	90 GB	7 TB	40/7 Gbps	Sign Up
+Linode 150 GB	$480.00	$0.72	150 GB	8	200 GB	8 TB	40/8 Gbps	Sign Up
+Linode 300 GB	$960.00	$1.44	300 GB	16	340 GB	9 TB	40/9 Gbps	Sign Up
+COMPUTE
+Accelerated Compute plans
+
+Dedicated access to cloud ASICs for specialized workloads, including media transcoding with NETINT VPUs.
+
+See product details
+Plan	$/Mo	$/Hr	RAM	VPUs	CPUs	Storage	Transfer	Network In/Out                                   	                       
+NETINT Quadra T1U VPU x1 Small	$280.00	$0.42	16 GB	1	8	200 GB	0 TB	40/16 Gbps	Sign Up
+NETINT Quadra T1U VPU x1 Medium	$352.00	$0.53	24 GB	1	12	300 GB	0 TB	40/16 Gbps	Sign Up
+NETINT Quadra T1U VPU x2 Small	$488.00	$0.73	24 GB	2	12	300 GB	0 TB	40/16 Gbps	Sign Up
+COMPUTE
+LKE: Managed Kubernetes Engine plans
+
+LKE pricing includes the resources you consume - compute instances, NodeBalancers, and volumes. Upgrade to our high-availability (HA) control plane for US$60 per cluster, per month.
+
+
+LKE-Enterprise gives you all the features of LKE and includes HA and a dedicated control plane for US$300 per cluster, per month.
+ 
+
+See product details
+G8 dedicated compute
+G8 dedicated general
+G7 dedicated compute
+G6 dedicated compute
+Shared CPU
+High Memory
+
+High-consistency compute powered by 5th Gen AMD EPYC™ processors with new 1:2 VM shapes and expanded memory options. Designed for enterprise-grade, latency-sensitive, and resource-heavy applications.
+
+Plan	Nodes	$/Hr	RAM	vCPUs	Storage	Transfer	 
+G8 Dedicated 4x2	3	$0.07	4 GB	2	40 GB	0 TB	Sign Up
+G8 Dedicated 8x4	3	$0.14	8 GB	4	80 GB	0 TB	Sign Up
+G8 Dedicated 16x8	3	$0.27	16 GB	8	160 GB	0 TB	Sign Up
+G8 Dedicated 32x16	3	$0.54	32 GB	16	320 GB	0 TB	Sign Up
+G8 Dedicated 64x32	3	$1.08	64 GB	32	640 GB	0 TB	Sign Up
+G8 Dedicated 96x48	3	$1.62	96 GB	48	960 GB	0 TB	Sign Up
+G8 Dedicated 128x64	3	$2.16	128 GB	64	1280 GB	0 TB	Sign Up
+G8 Dedicated 256x128	3	$4.32	256 GB	128	2560 GB	0 TB	Sign Up
+G8 Dedicated 512x256	3	$8.64	512 GB	256	5120 GB	0 TB	Sign Up
+Storage
+
+Egress overage costs = US$0.005 per GB
+
+STORAGE
+Block Storage plans
+
+Increase storage capacity by attaching high-speed volumes.
+
+
+See product details
+Storage	$/Mo	 
+10 GB	$1.00	Sign Up
+20 GB	$2.00	Sign Up
+40 GB	$4.00	Sign Up
+80 GB	$8.00	Sign Up
+160 GB	$16.00	Sign Up
+320 GB	$32.00	Sign Up
+640 GB	$64.00	Sign Up
+1280 GB	$128.00	Sign Up
+2560 GB	$256.00	Sign Up
+5120 GB	$512.00	Sign Up
+10240 GB	$1,024.00	Sign Up
+STORAGE
+Object Storage plans
+
+Amazon S3-compatible storage for backups, big data, and archiving needs. Overall storage capacity is based on the number of objects, per bucket, per account.
+
+
+See product details
+Storage ($/Mo)	Outbound Transfer ($/Mo)	 
+$0.02/GB	$0.005/GB with the first 1TB free each month.	Sign up
+STORAGE
+Images
+
+Upload, capture, and deploy custom images across machines.
+
+
+Explore developer hub
+Storage	$/Mo	Images / Account	Max Capacity	 
+1 GB	$0.10	100	500 GB	Sign Up
+25 GB	$2.50	100	500 GB	Sign Up
+50 GB	$5.00	100	500 GB	Sign Up
+75 GB	$7.50	100	500 GB	Sign Up
+100 GB	$10.00	100	500 GB	Sign Up
+125 GB	$12.50	100	500 GB	Sign Up
+150 GB	$15.00	100	500 GB	Sign Up
+STORAGE
+Backups
+
+Instant backups with complete independence to your stack. Choose your instance type to back up.
+
+See product details
+GPU
+G8 dedicated compute
+G8 dedicated general
+G7 dedicated compute
+G6 dedicated compute
+Shared CPU
+High Memory
+
+Dedicated virtual machines equipped with NVIDIA GPUs to speed up complex compute jobs.
+
+Plan	$/Mo	$/Hr	RAM	CPUs	Storage	Transfer	Network In/Out	 
+GPU 32 GB	$40.00	$0.06	32 GB	8	640 GB	16 TB	40/10 Gbps	Sign Up
+GPU 64 GB	$80.00	$0.12	64 GB	16	1280 GB	20 TB	40/10 Gbps	Sign Up
+GPU 96 GB	$160.00	$0.18	96 GB	20	1920 GB	20 TB	40/10 Gbps	Sign Up
+GPU 128 GB	$320.00	$0.24	128 GB	24	2560 GB	20 TB	40/10 Gbps	Sign Up
+Databases
+
+Egress overage costs = US$0.005 per GB
+
+DATABASES
+MySQL plans
+
+Fully managed MySQL database clusters. Pricing shown as a monthly fee.
+
+See product details
+G7 dedicated compute
+G6 dedicated compute
+Shared CPU
+
+High-performance dedicated CPU cores backed by 3rd Gen AMD EPYC processors with a premium memory configuration, delivering consistent throughput even under load. Built for CPU-intensive or business-critical applications that require reliability, low latency, and stable performance at scale.
+
+Plan	Core	RAM	Storage	1 Node	2 Nodes	3 Nodes	 
+G7 Dedicated 4 GB, node	2	4	80	$81.60	$171.60	$246.00	Sign Up
+G7 Dedicated 8 GB, node	4	8	160	$163.20	$342.00	$492.00	Sign Up
+G7 Dedicated 16 GB, node	8	16	320	$327.60	$708.00	$982.80	Sign Up
+G7 Dedicated 32 GB, node	16	32	640	$655.20	$1,401.60	$1,965.60	Sign Up
+G7 Dedicated 64 GB, node	32	64	1280	$1,407.60	$2,838.00	$4,150.80	Sign Up
+G7 Dedicated 96 GB, node	48	96	1920	$2,110.86	$4,358.40	$6,234.00	Sign Up
+G7 Dedicated 128 GB, node	50	128	2500	$2,809.14	$5,706.00	$8,086.80	Sign Up
+G7 Dedicated 256 GB, node	56	256	5000	$5,625.60	$10,941.60	$16,263.60	Sign Up
+G7 Dedicated 512 GB, node	64	512	7200	$11,073.60	$22,147.20	$33,220.80	Sign Up
+DATABASES
+PostgreSQL plans
+
+Fully managed PostgreSQL database clusters. Pricing shown as a monthly fee.
+
+See product details
+G7 dedicated compute
+G6 dedicated compute
+Shared CPU
+
+High-performance dedicated CPU cores backed by 3rd Gen AMD EPYC processors with a premium memory configuration, delivering consistent throughput even under load. Built for CPU-intensive or business-critical applications that require reliability, low latency, and stable performance at scale.
+
+
+Plan	Core	RAM	Storage	1 Node	2 Nodes	3 Nodes	 
+G7 Dedicated 4 GB, node	2	4	80	$81.60	$171.60	$246.00	Sign Up
+G7 Dedicated 8 GB, node	4	8	160	$163.20	$342.00	$492.00	Sign Up
+G7 Dedicated 16 GB, node	8	16	320	$327.60	$708.00	$982.80	Sign Up
+G7 Dedicated 32 GB, node	16	32	640	$655.20	$1,401.60	$1,965.60	Sign Up
+G7 Dedicated 64 GB, node	32	64	1280	$1,407.60	$2,838.00	$4,150.80	Sign Up
+G7 Dedicated 96 GB, node	48	96	1920	$2,110.86	$4,358.40	$6,234.00	Sign Up
+G7 Dedicated 128 GB, node	50	128	2500	$2,809.14	$5,706.00	$8,086.80	Sign Up
+G7 Dedicated 256 GB, node	56	256	5000	$5,625.60	$10,941.60	$16,263.60	Sign Up
+G7 Dedicated 512 GB, node	64	512	7200	$11,073.60	$22,147.20	$33,220.80	Sign Up
+DATABASES
+Valkey plans
+
+Fully managed Valkey database clusters. Pricing shown as an hourly or a monthly fee depending on plan.
+
+See product details
+G8 dedicated compute (hourly)
+G7 dedicated compute (hourly)
+G7 dedicated compute (monthly)
+
+High-consistency compute powered by 5th Gen AMD EPYC™ processors with new 1:2 VM shapes and expanded memory options. Designed for enterprise-grade, latency-sensitive, and resource-heavy applications.
+
+Plan (hourly)	Core	RAM	1 Node	2 Nodes	3 Nodes	 
+G8 Dedicated 4GB, node	2	4	$0.0863	$0.1726	$0.2589	Sign Up
+G8 Dedicated 8GB, node	2	8	$0.1479	$0.2959	$0.4438	Sign Up
+G8 Dedicated 8GB, node	4	8	$0.1726	$0.3452	$0.5178	Sign Up
+G8 Dedicated 16GB, node	4	16	$0.2959	$0.5918	$0.8877	Sign Up
+G8 Dedicated 32GB, node	8	32	$0.5918	$1.1836	$1.7753	Sign Up
+G8 Dedicated 64GB, node	16	64	$1.1836	$2.3671	$3.5507	Sign Up
+Networking
+
+Egress overage costs = US$0.005 per GB
+
+NETWORKING
+NodeBalancers
+
+Maintain uptime, scale efficiently, and manage traffic at predictable costs.
+
+
+See product details
+Plan	$/Mo	$/Hr	Outbound Data Processing ($/GB)	 
+Basic NodeBalancer	$10	$0.015	No charge	Sign Up
+Premium NodeBalancer	Not available	$0.225	$0.005	Sign Up
+Services
+
+Responsive, hands-on expertise from certified cloud engineers.
+
+Infrastructure management
+
+Enroll in a Managed Service from an existing account with no obligation or contract for $100 per compute instance, per month.
+
+Add to account
+Cloud consulting and migration
+
+Speak with a cloud consultant today! Send a consultation request or call us.
+
+Contact us
+Build the Right Cloud Plan for Your Needs
+
+Work with Akamai to analyze your cloud costs, tailor your infrastructure, and choose the features that fit your goals.
+
+Contact us
+Frequently Asked Questions (FAQ)
+How does hourly billing work?
+
+You are charged the hourly rate for a service (rates get rounded up to the nearest hour). For example, if you create a 1 GB VM and delete it after 24 hours of use, you would be billed $0.18 (24 hours x $0.0075/hr). You will receive an invoice on the first day of the following calendar month; however, you may receive a mid-month invoice if your account reaches a certain billing limit for services used within a single month. Payment collection occurs automatically once an invoice is generated. Read this guide to how billing works.
+
+What happens if I exceed my monthly transfer quota?
+I received a promotional credit when signing up for my account. When will my credit card begin to be charged?
+What forms of payment do you accept?
+What plan should I choose?
+Can I prepay for my cloud computing services?
+If my VM is powered off, will I be billed?
+Do you collect taxes?
+Get a personalized cloud cost analysis
+
+Connect with our sales team to discuss your goals, customize your infrastructure, and build the right cloud solution with the features you need.
+
+*
+First Name:
+*
+Last Name:
+*
+Email Address:
+*
+Company:
+*
+Country:
+United States
+Canada
+United Kingdom
+Afghanistan
+Aland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Indian Ocean Territory
+British Virgin Islands
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (the Democratic Republic of the)
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Republic of North Macedonia
+Reunion
+Romania
+Russian Federation
+Rwanda
+Saint Barthelemy
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+US Minor Outlying Islands
+US Virgin Islands
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+*
+Phone Number:
+Comments or Questions
+I'd like to receive more information from Akamai. By submitting this form, I am providing consent to receive marketing communications and I understand and agree to the usage of my corporate contact information in accordance with Akamai's privacy statement.
+Submit
+PRODUCTS
+Cloud Computing
+Security
+Content Delivery
+All Products and Trials
+Global Services
+COMPANY
+About Us
+History
+Leadership
+Awards
+Board of Directors
+Infrastructure for Innovation
+Investor Relations
+Corporate Responsibility
+Ethics
+Locations
+Vulnerability Reporting
+Accessibility Statement
+CAREERS
+Careers
+Working at Akamai
+Students and Recent Grads
+Inclusive Workplace
+Search Jobs
+Culture Blog
+NEWSROOM
+Newsroom
+Press Releases
+In the News
+Media Resources
+LEGAL & COMPLIANCE
+Legal
+Information Security Compliance
+Privacy Trust Center
+Privacy Statement
+Cookie Settings
+EU Digital Services Act (DSA)
+GLOSSARY
+What Is API Security?
+What Is a CDN?
+What Is Cloud Computing?
+What Is Cybersecurity?
+What Is a DDoS attack?
+What Is Microsegmentation?
+What Is WAAP?
+What Is Zero Trust?
+See all
+EMEA Legal Notice
+Service Status
+Contact Us
+English
+English
+Deutsch
+Español
+Français
+Italiano
+Português
+中文
+日本語
+한국어
+
+© 2026 Akamai Technologies
+
+Your cookie choices and AI settings for this website
+We use cookies to ensure the fast reliable and secure operation of this website, to improve your website experience, to enable certain social media interactions, to enable our AI sales representative chatbot (KAI) and to manage your cookie choices. Some cookies process personal data or personal information, where applicable. Click "Manage Preferences" to make individual choices and get details on the cookies in use and the associated processing activities in the Cookie Details section. You can access the Cookie Management Page and withdraw the consent at any time via the Cookie Settings link in the footer. By closing this cookie banner without managing your own preferences and continuing to visit our websites, you are agreeing to our use of cookies. For additional information relating to your privacy take a look at our Privacy Statement
+Manage Preferences

@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: noauth
+method: POST
+url: https://api.deepinfra.com/v1/openai/chat/completions
+http_code: 401
+captured_utc: 2026-09-29T18:21:51Z
+body_bytes: 108
+body_sha256: 20291e6a64177c25b4538b90ce9bdee6dae8decdf8053b5063e871e084affda6
+body_encoding: json, non-ASCII escaped as \uXXXX

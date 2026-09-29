@@ -1,0 +1,9 @@
+provider: baseten
+probe: www_head
+method: HEAD
+url: https://www.baseten.co/
+http_code: 200
+captured_utc: 2026-09-29T18:21:45Z
+body_bytes: 671
+body_sha256: 7601daea45f44affdd4040b61a5eee393b79cdd7aee1a39e3f787f0d65729db6
+body_encoding: raw

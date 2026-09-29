@@ -1,0 +1,10 @@
+HTTP/2 401 
+date: Tue, 29 Sep 2026 18:22:32 GMT
+content-type: application/json
+content-length: 64
+access-control-allow-origin: *
+vary: Origin
+access-control-allow-credentials: true
+x-request-id: 168e6f1c9be44c68272b463c21cd3214
+strict-transport-security: max-age=31536000; includeSubDomains
+

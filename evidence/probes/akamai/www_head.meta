@@ -1,0 +1,9 @@
+provider: akamai
+probe: www_head
+method: HEAD
+url: https://www.akamai.com/products/cloud-computing-services
+http_code: 403
+captured_utc: 2026-09-29T18:23:03Z
+body_bytes: 1271
+body_sha256: bf5e4b44621ca7205a3655866945ecc584dd58348e0ea73d55085f087e327444
+body_encoding: raw

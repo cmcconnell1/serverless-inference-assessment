@@ -1,0 +1,21 @@
+# vantage: unspecified (timezone MDT)
+# captured_utc: 2026-09-29T18:22:47Z
+# columns: url sample http_code dns_s connect_s tls_s ttfb_s total_s remote_ip
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 1 404 0.001978 0.140511 0.284314 0.463632 0.463733 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 2 404 0.003007 0.141889 0.285164 0.465258 0.465792 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 3 404 0.003674 0.141032 0.284900 0.465023 0.465357 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 4 404 0.003139 0.142833 0.286529 0.465851 0.466284 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 5 404 0.003139 0.141854 0.286716 0.467060 0.467393 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 6 404 0.002643 0.141544 0.285126 0.465979 0.466668 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 7 404 0.002847 0.142337 0.286251 0.464991 0.465561 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 8 404 0.002497 0.141935 0.285456 0.465151 0.465474 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/this-route-does-not-exist 9 404 0.003230 0.141947 0.286267 0.466418 0.466789 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 1 401 0.002507 0.140995 0.282207 0.422069 0.422389 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 2 401 0.002458 0.141168 0.286125 0.427000 0.427407 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 3 401 0.002778 0.141926 0.287344 0.427841 0.428281 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 4 401 0.003203 0.142075 0.286267 0.425866 0.426182 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 5 401 0.002795 0.141651 0.286277 0.427401 0.427691 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 6 401 0.002833 0.141046 0.281649 0.421680 0.422198 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 7 401 0.002984 0.141249 0.285279 0.425345 0.425781 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 8 401 0.003015 0.142886 0.287823 0.428582 0.428873 213.239.161.19
+https://api.tokenfactory.nebius.com/v1/models 9 401 0.003550 0.142220 0.285584 0.426557 0.426918 213.239.161.19

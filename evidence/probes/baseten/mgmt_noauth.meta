@@ -1,0 +1,9 @@
+provider: baseten
+probe: mgmt_noauth
+method: GET
+url: https://api.baseten.co/v1/models
+http_code: 403
+captured_utc: 2026-09-29T18:21:43Z
+body_bytes: 63
+body_sha256: 6116e6bf9790f9cda022f97ef30683f1d817f7640265ba607707796b8cae7eb1
+body_encoding: json, non-ASCII escaped as \uXXXX

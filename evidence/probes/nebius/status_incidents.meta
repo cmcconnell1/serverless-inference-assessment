@@ -1,0 +1,9 @@
+provider: nebius
+probe: status_incidents
+method: GET
+url: https://status.nebius.com/api/v2/incidents.json
+http_code: 200
+captured_utc: 2026-09-29T18:22:40Z
+body_bytes: 293600
+body_sha256: fd0a3b8fe0088f329d4d270d14d802c9ad3bd6620da136dd332eddc8beaf41cc
+body_encoding: json, non-ASCII escaped as \uXXXX

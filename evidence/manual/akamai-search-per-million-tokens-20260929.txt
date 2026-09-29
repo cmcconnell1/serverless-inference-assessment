@@ -1,0 +1,50 @@
+url: https://www.google.com/search?q=site:akamai.com+"per+million+tokens"
+captured_utc: 2026-09-29T03:46Z
+normalization: typographic characters rewritten to ASCII, symbols and format characters removed
+method: page text (document.body.innerText) read from Google Chrome 154.0.8037.58 , interactive user session, via AppleScript
+---
+site:akamai.com "per million tokens" - Google Search
+https://www.google.com/search?q=site%3Aakamai.com+%22per+million+tokens%22
+
+Skip to main content
+Accessibility help
+Sign in
+AI Mode
+All
+Images
+Shopping
+Videos
+News
+Forums
+More
+Tools
+Search Results
+Web results
+Your AI Cost Model Stops at the Token Price. The Bill ...
+
+Akamai
+https://www.akamai.com  Blog  AI
+Jun 25, 2026 - The metric of record is dollars per million tokens, and for good reason: GPU time is the majority of the bill, driven by model size, token ...Read more
+Your Ai Cost Model Stops At...
+The Hidden Costs Beyond The...
+Evaluating An Ai Vendor...
+Why GPU Card Counts Matter for Real AI Workloads
+
+Akamai
+https://www.akamai.com  Blog  Cloud
+Jul 25, 2026 - 28% lower cost per million tokens  Higher throughput (3,140 vs. 2,987 tokens/sec)  FP4 support delivering 1.63x performance improvement over ...Read more
+Images
+Your AI Cost Model Stops at the Token Price. The Bill Doesn ...
+Akamai
+Your AI Cost Model Stops at the Token Price. The Bill Doesn ...
+Akamai
+Why GPU Card Counts Matter for Real AI Workloads
+Akamai
+All images
+Footer Links
+Meridian, Idaho - From your IP address
+ - Update location
+Help
+Send feedback
+Privacy
+Terms

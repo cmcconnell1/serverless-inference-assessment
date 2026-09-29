@@ -1,0 +1,9 @@
+provider: nebius
+probe: notfound
+method: GET
+url: https://api.studio.nebius.com/v1/this-route-does-not-exist
+http_code: 404
+captured_utc: 2026-09-29T18:22:33Z
+body_bytes: 22
+body_sha256: 37ec4665a8102d115ffd1ac20dae94c98b4dac64b0c1a68228aa2a531caeb35d
+body_encoding: json, non-ASCII escaped as \uXXXX

@@ -1,0 +1,9 @@
+provider: akamai
+probe: llms_txt
+method: GET
+url: https://techdocs.akamai.com/cloud-computing/llms.txt
+http_code: 200
+captured_utc: 2026-09-29T18:23:00Z
+body_bytes: 1320
+body_sha256: e778871a1c70b17142f294505582cdb2da3988d7e43609339313300205243281
+body_encoding: raw

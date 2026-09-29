@@ -1,0 +1,22 @@
+== api.deepinfra.com ==
+api.deepinfra.com.	29	IN	A	38.101.151.18
+api.deepinfra.com.	29	IN	A	38.101.151.16
+api.deepinfra.com.	29	IN	A	38.101.151.15
+api.deepinfra.com.	29	IN	A	38.101.151.19
+api.deepinfra.com.	29	IN	A	38.101.151.21
+api.deepinfra.com.	29	IN	A	38.101.151.29
+api.deepinfra.com.	29	IN	A	38.101.151.24
+api.deepinfra.com.	29	IN	A	38.101.151.23
+api.deepinfra.com.	29	IN	A	38.101.151.25
+api.deepinfra.com.	29	IN	A	38.101.151.20
+api.deepinfra.com.	29	IN	A	38.101.151.13
+api.deepinfra.com.	29	IN	A	38.101.151.14
+api.deepinfra.com.	29	IN	A	38.101.151.22
+api.deepinfra.com.	29	IN	A	38.101.151.30
+
+== deepinfra.com ==
+deepinfra.com.		60	IN	A	76.76.21.21
+
+== status.deepinfra.com ==
+status.deepinfra.com.	300	IN	A	100.50.38.141
+

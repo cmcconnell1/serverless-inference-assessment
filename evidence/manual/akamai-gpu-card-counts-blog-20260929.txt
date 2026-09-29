@@ -1,0 +1,279 @@
+url: https://www.akamai.com/blog/cloud/why-gpu-card-counts-matter-real-ai-workloads
+captured_utc: 2026-09-29T03:46Z
+normalization: typographic characters rewritten to ASCII, symbols and format characters removed
+method: page text (document.body.innerText) read from Google Chrome 154.0.8037.58 , interactive user session, via AppleScript
+---
+Why GPU Card Counts Matter for Real AI Workloads
+https://www.akamai.com/blog/cloud/why-gpu-card-counts-matter-real-ai-workloads
+
+Skip to main content
+English
+Docs
+Partners
+Sales
+Support
+Under Attack ?
+Log in
+Cloud Manager
+Manage your cloud computing services
+Control Center
+Manage your security and delivery services
+Products
+Solutions
+Pricing
+Developers
+Resources
+Create account
+Blog
+Cloud
+Why GPU Card Counts Matter for Real AI Workloads
+Why GPU Card Counts Matter for Real AI Workloads
+
+This blog post was updated on July 25, 2026. 
+
+Mar 03, 2026
+
+Dan Sheppard
+
+Share
+
+When organizations move artificial intelligence (AI) from experiment to production, they discover something critical: Not every workload needs the biggest GPU you can buy. 
+
+The challenge isn't access to GPUs. It's having the right GPU shape for the job.
+
+Some teams need just enough GPU to fine-tune a model or power a recommendation engine. Others need significantly more memory and throughput for multimodal inference, 8K video transcoding, or AAA game titles support.
+
+With NVIDIA RTX PRO™ 6000 Blackwell Server Edition GPUs now available in 1-card, 2-card, 4-card, and 8-card plans, Akamai Inference Cloud meets customers where their workloads actually are, delivering the right price-to-performance ratio for real AI inference, agentic AI, physical AI, scientific computing, media, and video games use cases.
+
+These plans are designed for teams that don't just want GPU access. They also want GPU infrastructure that matches how modern applications are built and deployed.
+
+Not sure what GPU you need? Check out our blog post on comparing GPUs on Akamai Cloud. 
+
+What different GPU card counts enable
+
+The number of GPU cards in a plan directly impacts available memory, parallelism, and throughput, which translates into very different classes of workloads. The three plans include:
+
+1-card plans - Enable precision for focused AI, media, and edge inference
+2-card plans - Expand the class of workloads for multimodal and agentic AI systems
+4-card plans - Run the largest models without training-class infrastructure
+
+8-card plans - Perform massive memory processes with the largest context windows 
+
+1-card plans - Enable precision for focused AI, media, and edge inference
+
+A single NVIDIA RTX PRO 6000 Blackwell Server Edition GPU is not an entry-level option. It is an extremely efficient shape for a wide range of real production workloads.
+
+With 96 GB of VRAM, this plan enables teams to run:
+
+Up to 70B parameter models using FP4 quantization
+Up to 40B parameter models using FP8 quantization
+Multiple concurrent instances of 7B-13B parameter models on the same GPU
+
+The 1-card plan is purpose-built for deploying large language models, recommendation engines, multimodal inference, safety systems, transcoding pipelines, and AI services embedded directly into applications.
+
+This is where the price-performance advantage becomes undeniable. Compared with H100 running similar workloads, NVIDIA RTX PRO 6000 Blackwell Server Edition GPU provides:
+
+28% lower cost per million tokens
+Higher throughput (3,140 vs. 2,987 tokens/sec)
+FP4 support delivering 1.63x performance improvement over H100 at FP8
+
+These gains are a direct result of the Blackwell architecture's native FP4 support and memory profile, which allow teams to run larger models or more concurrent workloads without scaling up to oversized, expensive GPU instances.
+
+For many AI builders, media platforms, and software companies, this is the operational sweet spot: enough GPU to run serious models efficiently, without paying for infrastructure designed for training clusters or massive parallelism.
+
+2-card plans - Expand the class of workloads for multimodal and agentic AI systems
+
+Two RTX PRO 6000 Blackwell Server Edition GPUs dramatically expand the class of workloads that teams can run without stepping into oversized, data center-class GPU infrastructure.
+
+This configuration is optimized for platform and product teams that are building:
+
+Multimodal AI systems combining vision, text, and audio
+Agentic AI workflows that maintain context across multistep tasks
+Higher-throughput inference for web, mobile, and enterprise applications
+AI moderation, safety, and real-time decision systems
+
+With combined GPU memory, teams can run:
+
+Models on single-GPU limits using FP4 quantization
+Larger context windows for inference
+More demanding real-time workloads without sacrificing latency
+
+At this level, performance remains on par with traditional data center GPUs:
+
+Nearly identical cost per token as H100/H200 class infrastructure
+Strong throughput for real-world inference workloads, while still benefiting from the price-performance and geographic advantages of the Akamai distributed edge and cloud platform
+
+For many AI builders, this is where multimodal and agentic applications move from experimental to production grade.
+
+4-card plans - Run the largest models without training-class infrastructure
+
+Four RTX PRO 6000 Blackwell Server Edition GPUs unlock the ability to run large open models in production, without requiring specialized centralized AI factory environments.
+
+This plan is designed for:
+
+Large-scale enterprise inference systems
+High-throughput media and transcoding pipelines
+AAA games platforms with AI-driven services
+Software platforms that are delivering AI capabilities to customers globally
+
+In this configuration, teams can run:
+
+Models requiring 384 GB of memory supporting a large number parameter models
+Models such as Qwen3-Coder-480B in FP4, which requires approximately 320 GB of GPU memory across four GPUs
+
+At this scale, the architecture begins to approach the practical limits of PCIe-based GPU communication, and raw throughput starts to favor NVLink-based H100/H200 systems by roughly 30% to 50%.
+
+For inference workloads, however, the economics and deployment flexibility remain compelling.
+
+The cost efficiency remains nearly identical to that of data center GPUs.
+These large models can be deployed in locations that matter for latency.
+There is no need to move workloads into centralized AI factory regions.
+
+This makes the 4-card plan uniquely suited for teams that need to run very large models in production, closer to users, without investing in specialized training infrastructure.
+
+8-card plans - Perform massive memory processes with the largest context windows 
+
+Eight RTX PRO 6000 Blackwell Server Edition GPUs deliver the highest capacity available in a single instance, unlocking the ability to handle massive memory processes and the largest context windows without relying on centralized supercomputing clusters. This configuration is designed for:
+
+Massive-scale enterprise inference architectures
+
+Agentic AI networks requiring deep memory for extended, multistep reasoning
+
+High-fidelity rendering and complex video generation pipelines 
+
+With a massive 768 GB of combined VRAM, teams can run:
+
+The largest open-weight models available today at maximum context lengths
+
+Complex multimodel inference pipelines concurrently on the same server
+
+Who these GPU shapes are built for
+
+These GPU configurations are particularly well suited for:
+
+Digital-native AI builders developing agentic and multimodal products for real-world use
+Product and platform teams embedding AI inference into web, mobile, device, and enterprise applications
+Media and entertainment companies performing transcoding, supporting 8K streaming, and powering AAA video games titles
+Enterprises deploying real-time AI systems such as recommendations, copilots, analytics, and safety workflows
+Software companies delivering AI-powered platforms that require reliable, low-latency inference at global scale
+From GPU instances to a distributed AI platform
+
+Akamai Inference Cloud provides access to NVIDIA RTX PRO 6000 Blackwell Server Edition across its distributed cloud, forming the foundation of a broader, edge native AI platform that enables customers to run AI inference and accelerated workloads closer to end users.
+
+Blackwell GPUs on Akamai Inference Cloud are designed for teams that are ready to run real AI workloads on GPUs with strong price-performance characteristics in locations that matter for latency, and to see how this distributed compute layer connects with Akamai's evolving serverless and edge delivery capabilities.
+
+Customers gain direct access to distributed GPU infrastructure paired with a production-ready Kubernetes environment (LKE) and an AI software stack, making it possible to deploy, scale, and operate inference workloads without building custom GPU infrastructure.
+
+The focus is on transparent pricing, ongoing performance improvements, and enabling inference-driven workloads that centralized cloud regions often struggle to support efficiently - while signaling the evolution from standalone GPU instances to an integrated, globally distributed intelligence platform.
+
+Why this matters
+
+For organizations that are scaling AI initiatives but constrained by the cost, scarcity, and latency of centralized hyperscalers, Akamai Inference Cloud provides a globally distributed AI compute foundation.
+
+The RTX PRO 6000 Blackwell Server Edition GPUs serve as the bedrock for this AI platform evolution, combining high-performance GPU instances, managed Kubernetes, and an AI-optimized software stack with the geographic reach required for sub-10 ms experiences.
+
+Because in AI infrastructure, just like in other compute plans, the shape is what determines whether AI runs efficiently or expensively.
+
+Get access
+
+Written by
+
+Dan Sheppard
+
+Dan Sheppard is a Senior Product Marketing Manager at Akamai.
+
+Tags
+
+Cloud
+Kubernetes
+
+Share
+
+Related Blog Posts
+Valkey Managed Database helps organizations build faster, more context-aware AI applications while reducing operational complexity.
+Cloud
+Akamai Valkey Managed Database: Real-Time Memory for Enterprise AI
+August 18, 2026
+Amit Mohanty
+Introducing Akamai Valkey Managed Database: a low-latency, in-memory data layer to optimize AI inference costs, accelerate RAG, and power real-time AI agents.
+Read blog
+AI applications don't rely on accelerated compute alone.
+Cloud
+Akamai Cloud Keeps Strengthening the Foundation (Updated August 2026)
+August 10, 2026
+Shawn Michels
+Explore Akamai Cloud's Q2 2026 updates: configurable VPC ranges, single sign-on, Cloud Pulse audit logs and alerts, and Kubernetes v1.34.
+Read blog
+Centralized clouds cannot handle the real-time demands of the generative frontier.
+Cloud
+With Val Kilmer's AI Twin, Is Gen AI Forcing Hollywood to the Edge?
+August 06, 2026
+Vineeth Varughese
+Val Kilmer, who passed away in early 2025, has been cast in an upcoming movie via AI. Read how that could work from an infrastructure perspective.
+Read blog
+
+Rate the helpfulness of this page
+
+PRODUCTS
+Cloud Computing
+Security
+Content Delivery
+All Products and Trials
+Global Services
+COMPANY
+About Us
+History
+Leadership
+Awards
+Board of Directors
+Infrastructure for Innovation
+Investor Relations
+Corporate Responsibility
+Ethics
+Locations
+Vulnerability Reporting
+Accessibility Statement
+CAREERS
+Careers
+Working at Akamai
+Students and Recent Grads
+Inclusive Workplace
+Search Jobs
+Culture Blog
+NEWSROOM
+Newsroom
+Press Releases
+In the News
+Media Resources
+LEGAL & COMPLIANCE
+Legal
+Information Security Compliance
+Privacy Trust Center
+Privacy Statement
+Cookie Settings
+EU Digital Services Act (DSA)
+GLOSSARY
+What Is API Security?
+What Is a CDN?
+What Is Cloud Computing?
+What Is Cybersecurity?
+What Is a DDoS attack?
+What Is Microsegmentation?
+What Is WAAP?
+What Is Zero Trust?
+See all
+EMEA Legal Notice
+Service Status
+Contact Us
+English
+English
+Deutsch
+Español
+Français
+Italiano
+Português
+中文
+日本語
+한국어
+
+© 2026 Akamai Technologies

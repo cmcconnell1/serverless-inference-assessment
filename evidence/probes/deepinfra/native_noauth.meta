@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: native_noauth
+method: POST
+url: https://api.deepinfra.com/v1/inference/meta-llama/Meta-Llama-3.1-8B-Instruct
+http_code: 401
+captured_utc: 2026-09-29T18:22:22Z
+body_bytes: 28
+body_sha256: bb27288520dbb2517c7d5bb373707fc8b1834e6e262d1670bfebc7792e50d1b6
+body_encoding: json, non-ASCII escaped as \uXXXX

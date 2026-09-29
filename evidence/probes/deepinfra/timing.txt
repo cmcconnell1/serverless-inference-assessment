@@ -1,0 +1,21 @@
+# vantage: unspecified (timezone MDT)
+# captured_utc: 2026-09-29T18:22:26Z
+# columns: url sample http_code dns_s connect_s tls_s ttfb_s total_s remote_ip
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 1 404 0.003560 0.037438 0.073768 0.109602 0.109665 38.101.151.14
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 2 404 0.003895 0.037100 0.073375 0.108289 0.108367 38.101.151.30
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 3 404 0.002673 0.035356 0.072914 0.110103 0.110297 38.101.151.21
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 4 404 0.003492 0.036283 0.075136 0.476926 0.477150 38.101.151.24
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 5 404 0.004063 0.036256 0.073181 0.108714 0.108836 38.101.151.16
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 6 404 0.002730 0.035692 0.073573 0.120510 0.121211 38.101.151.16
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 7 404 0.003007 0.036475 0.076661 0.113202 0.113496 38.101.151.16
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 8 404 0.003891 0.037440 0.077537 0.119555 0.119771 38.101.151.16
+https://api.deepinfra.com/v1/openai/this-route-does-not-exist 9 404 0.002697 0.035603 0.075589 0.111633 0.111838 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 1 200 0.002597 0.034449 0.071231 0.202602 0.264825 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 2 200 0.002551 0.035587 0.074472 0.200154 0.265609 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 3 200 0.003658 0.036248 0.074094 0.226334 0.290369 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 4 200 0.003864 0.036172 0.073445 0.199779 0.262585 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 5 200 0.003654 0.035930 0.072266 0.256449 0.319899 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 6 200 0.003667 0.037116 0.075457 0.802429 0.866557 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 7 200 0.001754 0.034757 0.076832 0.211228 0.275339 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 8 200 0.004262 0.036345 0.074141 0.209223 0.272330 38.101.151.16
+https://api.deepinfra.com/v1/openai/models 9 200 0.004018 0.036371 0.074421 0.197225 0.261808 38.101.151.16

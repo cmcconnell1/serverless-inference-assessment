@@ -1,0 +1,9 @@
+provider: baseten
+probe: status
+method: GET
+url: https://status.baseten.co/api/v2/summary.json
+http_code: 200
+captured_utc: 2026-09-29T18:21:44Z
+body_bytes: 2229
+body_sha256: 58dce9d641ed5c51ba174e31323c8dd6151847ae8158f4f71bdf9ad48254478c
+body_encoding: json, non-ASCII escaped as \uXXXX

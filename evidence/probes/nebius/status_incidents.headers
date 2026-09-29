@@ -1,0 +1,31 @@
+HTTP/2 200 
+content-type: application/json; charset=utf-8
+content-length: 293600
+date: Tue, 29 Sep 2026 18:22:40 GMT
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+x-statuspage-version: 5db17b794a029f0fae37c3d77c6d601cd4661792
+strict-transport-security: max-age=259200
+x-statuspage-skip-logging: true
+access-control-allow-origin: *
+cache-control: max-age=10, public, s-maxage=10, stale-while-revalidate=20, stale-if-error=3600
+x-pollinator-metadata-service: status-page-web-pages
+x-runtime: 0.052542
+server: AtlassianEdge
+accept-ranges: bytes
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+atl-traceid: 73f65c65e41c46eca09ababd5a33d010
+atl-request-id: 73f65c65-e41c-46ec-a09a-babd5a33d010
+report-to: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+nel: {"failure_fraction": 0.01, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+server-timing: atl-edge;dur=59,atl-edge-internal;dur=2,atl-edge-upstream;dur=57,atl-edge-pop;desc="aws-us-east-1"
+etag: W/"fd0a3b8fe0088f329d4d270d14d802c9"
+vary: Accept,Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 fbb003dfc0617e3e058e3dac791dfd5a.cloudfront.net (CloudFront)
+x-amz-cf-pop: SEA900-P10
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: XZwjynXwufbvzzZdW3NsOJUbB1_wnEeIDInkq6vKQb3GgJOEei9pqg==
+

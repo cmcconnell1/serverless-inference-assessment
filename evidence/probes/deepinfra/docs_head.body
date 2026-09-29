@@ -1,0 +1,10 @@
+HTTP/2 308 
+cache-control: public, max-age=0, must-revalidate
+content-type: text/plain
+date: Tue, 29 Sep 2026 18:22:23 GMT
+location: https://docs.deepinfra.com
+refresh: 0;url=https://docs.deepinfra.com
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-id: pdx1::74zkx-1790706143714-7d89ae8af6f9
+

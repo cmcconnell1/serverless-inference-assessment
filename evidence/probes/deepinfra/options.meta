@@ -1,0 +1,9 @@
+provider: deepinfra
+probe: options
+method: OPTIONS
+url: https://api.deepinfra.com/v1/openai/chat/completions
+http_code: 200
+captured_utc: 2026-09-29T18:21:51Z
+body_bytes: 2
+body_sha256: 565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3
+body_encoding: raw

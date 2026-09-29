@@ -1,0 +1,9 @@
+provider: baseten
+probe: docs_head
+method: HEAD
+url: https://docs.baseten.co/
+http_code: 308
+captured_utc: 2026-09-29T18:21:45Z
+body_bytes: 2242
+body_sha256: 4996325d075de78b0aebc77838a3fa76ba811e1ec795f61ec3af25fc898bcc58
+body_encoding: raw
